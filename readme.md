@@ -1,4 +1,4 @@
-<p>
+<p align="center">
   <a href="https://leetcode.com/rodneyshag">
     <img height=150 src="https://raw.githubusercontent.com/clfm/LeetCode/master/images/leetcode-logo.png">
   </a>
