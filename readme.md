@@ -1,6 +1,6 @@
 <p>
   <a href="https://leetcode.com/rodneyshag">
-    <img height=85 style="background-color:black;" src="https://leetcode.com/static/webpack_bundles/images/LeetCode_nav.4d940ca72.png">
+    <img height=150 src="https://raw.githubusercontent.com/clfm/LeetCode/master/images/leetcode-logo.png">
   </a>
 </p>
 
