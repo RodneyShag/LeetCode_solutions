@@ -1,8 +1,7 @@
-<p align="center">
-    <a href="https://leetcode.com/rodneyshag">
-        <img height=85 src="https://leetcode.com/static/webpack_bundles/images/LeetCode_nav.4d940ca72.png">
-    </a>
-    <br>21 efficient solutions to LeetCode problems
+<p>
+  <a href="https://leetcode.com/rodneyshag">
+    <img height=85 style="background-color:black;" src="https://leetcode.com/static/webpack_bundles/images/LeetCode_nav.4d940ca72.png">
+  </a>
 </p>
 
 
