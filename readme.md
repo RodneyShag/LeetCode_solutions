@@ -1,7 +1,8 @@
 <p align="center">
   <a href="https://leetcode.com/rodneyshag">
-    <img height=150 src="https://raw.githubusercontent.com/clfm/LeetCode/master/images/leetcode-logo.png">
+    <img height=100 src="https://leetcode.com/static/webpack_bundles/images/logo-dark.e99485d9b.svg">
   </a>
+  <br/><br/>
 </p>
 
 
