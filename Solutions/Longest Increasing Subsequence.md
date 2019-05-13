@@ -16,6 +16,8 @@
 - sortedArray: [0, 4, 12]
 - sortedArray: [0, 2, 12]
 
+### Solution
+
 ```java
 public class Solution {
     public int lengthOfLIS(int[] nums) {
