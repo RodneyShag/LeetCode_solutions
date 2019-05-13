@@ -2,7 +2,7 @@
   <a href="https://leetcode.com/rodneyshag">
     <img height=80 src="https://leetcode.com/static/webpack_bundles/images/logo-dark.e99485d9b.svg">
   </a>
-  <br>21 efficient solutions to LeetCode problems
+  <br>23 efficient solutions to LeetCode problems
   <br><br>
 </p>
 
@@ -21,9 +21,11 @@
 |  141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)                                                                     | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Linked%20List%20Cycle.md)                                               |    Easy    |
 |  143 | [Reorder List](https://leetcode.com/problems/reorder-list)                                                                               | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Reorder%20List.md)                                                      |   Medium   |
 |  151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)                                                     | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Reverse%20Words%20in%20a%20String.md)                                   |   Medium   |
+|  162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element)                                                                     | [Solution](https://github.com/RodneyShag/Interview_solutions/blob/master/Solutions/Find%20Peak%20Element.md)                                              |   Medium   |
 |  189 | [Rotate Array](https://leetcode.com/problems/rotate-array)                                                                               | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Rotate%20Array.md)                                                      |    Easy    |
 |  200 | [Number of Islands](https://leetcode.com/problems/number-of-islands)                                                                     | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Number%20of%20Islands.md)                                               |   Medium   |
 |  206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)                                                                 | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Reverse%20Linked%20List.md)                                             |    Easy    |
+|  300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence)                                           | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Longest%20Increasing%20Subsequence.md)                                  |   Medium   |
 |  347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)                                                         | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Top%20K%20Frequent%20Elements.md)                                       |   Medium   |
 |  518 | [Coin Change 2](https://leetcode.com/problems/coin-change-2)                                                                             | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Coin%20Change%202.md)                                                   |   Medium   |
 |  560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k)                                                             | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Subarray%20Sum%20Equals%20K.md)                                         |   Medium   |
