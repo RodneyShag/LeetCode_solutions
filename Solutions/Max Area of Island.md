@@ -47,5 +47,5 @@ class Solution {
 
 ### Time/Space Complexity
 
-- Time Complexity: O(m*n)
-- Space Complexity: O(1)
+- Time Complexity: O(rows * cols)
+- Space Complexity: O(rows * cols)

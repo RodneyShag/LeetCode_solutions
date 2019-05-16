@@ -54,7 +54,7 @@ class Solution {
 
 ### Time/Space Complexity
 
-- let `n` = length of longest list
+- let `n` = total number of nodes
 - let `k` = number of lists
-- Time Complexity: `O(nk log k)` if list lengths are equal. Otherwise, replace `nk` with number of items total in all the lists.
+- Time Complexity: `O(n log k)`
 - Space Complexity: `O(k)`, as that's the max size of our PriorityQueue.

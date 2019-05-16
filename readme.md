@@ -2,13 +2,14 @@
   <a href="https://leetcode.com/rodneyshag">
     <img height=80 src="https://leetcode.com/static/webpack_bundles/images/logo-dark.e99485d9b.svg">
   </a>
-  <br>23 efficient solutions to LeetCode problems
+  <br>25 efficient solutions to LeetCode problems
   <br><br>
 </p>
 
 
 |   ﻿#  |                                                                 Question                                                                 |                                                                          Solution                                                                         | Difficulty |
 |:----:|:----------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------:|
+|   5  | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)                                             | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Longest%20Palindromic%20Substring.md)                                   |   Medium   |
 |  15  | [3sum](https://leetcode.com/problems/3sum)                                                                                               | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/3sum.md)                                                                |   Medium   |
 |  16  | [3sum Closest](https://leetcode.com/problems/3sum-closest)                                                                               | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/3sum%20Closest.md)                                                      |   Medium   |
 |  20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)                                                                     | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Valid%20Parentheses.md)                                                 |    Easy    |
@@ -28,7 +29,8 @@
 |  300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence)                                           | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Longest%20Increasing%20Subsequence.md)                                  |   Medium   |
 |  347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)                                                         | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Top%20K%20Frequent%20Elements.md)                                       |   Medium   |
 |  518 | [Coin Change 2](https://leetcode.com/problems/coin-change-2)                                                                             | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Coin%20Change%202.md)                                                   |   Medium   |
+|  516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence)                                         | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Longest%20Palindromic%20Subsequence.md)                                 |   Medium   |
 |  560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k)                                                             | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Subarray%20Sum%20Equals%20K.md)                                         |   Medium   |
 |  692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words)                                                               | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Top%20K%20Frequent%20Words.md)                                          |   Medium   |
 |  695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island)                                                                   | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Max%20Area%20of%20Island.md)                                            |   Medium   |
-| 1013 | [Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60) | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.md) |    Easy    |
+| 1010 | [Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60) | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.md) |    Easy    |
