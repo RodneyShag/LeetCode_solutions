@@ -2,13 +2,14 @@
   <a href="https://leetcode.com/rodneyshag">
     <img height=80 src="https://leetcode.com/static/webpack_bundles/images/logo-dark.e99485d9b.svg">
   </a>
-  <br>25 efficient solutions to LeetCode problems
+  <br>26 efficient solutions to LeetCode problems
   <br><br>
 </p>
 
 
 |   ﻿#  |                                                                 Question                                                                 |                                                                          Solution                                                                         | Difficulty |
 |:----:|:----------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------:|
+|   4  | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)                                                 | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Median%20of%20Two%20Sorted%20Arrays.md)                                 |    Hard    |
 |   5  | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)                                             | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Longest%20Palindromic%20Substring.md)                                   |   Medium   |
 |  15  | [3sum](https://leetcode.com/problems/3sum)                                                                                               | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/3sum.md)                                                                |   Medium   |
 |  16  | [3sum Closest](https://leetcode.com/problems/3sum-closest)                                                                               | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/3sum%20Closest.md)                                                      |   Medium   |
