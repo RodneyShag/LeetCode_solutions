@@ -4,9 +4,11 @@
 
 ### Solution
 
+`findMedianSortedArrays()` below assumes input arrays are sorted.
+
 ```java
 class Solution {
-    public double findMedianSortedArrays(int[] input1, int[] input2) throws IllegalArgumentException { // assumes arrays are sorted
+    public double findMedianSortedArrays(int[] input1, int[] input2) throws IllegalArgumentException {
         if (input1 == null || input2 == null) {
             throw new IllegalArgumentException();
         } else if (input1.length > input2.length) {
