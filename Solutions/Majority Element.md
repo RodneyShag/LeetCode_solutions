@@ -41,8 +41,8 @@ class Solution {
 In the case that the majority element does not necessarily exist in the provided array, we would take the output of `majorityElement()` and test to see if our candidate qualifies as the majority element (by checking that the number makes up at least half of the array):
 
 ```java
-boolean isMajorityValid(int[] array, int majority) {
-    long count = Arrays.stream(array).filter(a -> (a == majority)).count();
+boolean isCandidateValid(int[] array, int candidate) {
+    long count = Arrays.stream(array).filter(a -> (a == candidate)).count();
     return count * 2 > array.length;
 }
 ```
