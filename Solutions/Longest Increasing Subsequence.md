@@ -39,7 +39,6 @@ public class Solution {
                 size++;
             }
         }
-        System.out.println(Arrays.toString(sortedArray));
         return size;
     }
 }

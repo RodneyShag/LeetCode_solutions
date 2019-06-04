@@ -1,6 +1,6 @@
 ### Algorithm
 
-Use Guass's formula: The sum of 1 to n is (n)(n+1)/2
+Use Gauss's formula: The sum of 1 to n is (n)(n+1)/2
 
 ### Solution
 
