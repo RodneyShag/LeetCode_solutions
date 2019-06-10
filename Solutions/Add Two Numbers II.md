@@ -1,3 +1,8 @@
+### Notes
+
+- Use 1 stack for each Linked List to reverse each Linked List. It will now be easier to add numbers in the lists.
+- I use an `ArrayDeque` as a `Stack` since it's faster.
+
 ### Provided Code
 
 ```java
@@ -21,27 +26,27 @@ class Solution {
             return n;
         }
 
-        Stack<Integer> stack1 = new Stack<>();
-        Stack<Integer> stack2 = new Stack<>();
+        Deque<Integer> deque1 = new ArrayDeque<>(); // use as a stack
+        Deque<Integer> deque2 = new ArrayDeque<>(); // use as a stack
 
         while (m != null) {
-            stack1.push(m.val);
+            deque1.push(m.val);
             m = m.next;
         }
         while (n != null) {
-            stack2.push(n.val);
+            deque2.push(n.val);
             n = n.next;
         }
 
         int carry = 0;
         ListNode dummy = new ListNode(0); // 1 Node before the actual head of list
-        while (!stack1.isEmpty() || !stack2.isEmpty() || carry != 0) {
+        while (!deque1.isEmpty() || !deque2.isEmpty() || carry != 0) {
             int value = carry;
-            if (!stack1.isEmpty()) {
-                value += stack1.pop();
+            if (!deque1.isEmpty()) {
+                value += deque1.pop();
             }
-            if (!stack2.isEmpty()) {
-                value += stack2.pop();
+            if (!deque2.isEmpty()) {
+                value += deque2.pop();
             }
             int digit = value % 10;
             carry = value / 10;
