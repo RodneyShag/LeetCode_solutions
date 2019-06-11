@@ -2,6 +2,7 @@
 
 - We can represent addition by using the AND operator (`&`) and XOR (`^`) operator.
 - AND will give us the 'carry', and XOR will give us the 'sum'. The 'carry' and 'sum' together will give us our result.
+- This solution works for negative numbers as well.
 
 ### Solution
 
