@@ -5,13 +5,14 @@
 - Create a `DoublyLinkedList` class
   - We will use "dummy" nodes for the "head" and "tail". This will let us omit `head == null` checks for adding to the list, which also improves performance on the common operation of inserting into our list.
   - This class will be used to maintain ordering. The 1st element in the list represents the most "recently used" Node.
+  - We create a Doubly-Linked instead of Singly-Linked list so that, given access to a Node in the list, we can remove it.
 - Create a `Map<Integer, Node>`
   - Since we don't have O(1) access to elements in our `DoublyLinkedList`, our `HashMap` will provide us with this O(1) access using a 'key' for each `Node`.
 
 
 __A Node needs a 'value', but why store a 'key' there as well?__ Because when we remove from end of Linked List, the Node's key is used to find the Node in the HashMap (to remove the node there as well).
 
-There is also an excellent explanation in Cracking the Coding Interview, 6th Edition solutions.
+There is also an excellent explanation in "Cracking the Coding Interview", 6th Edition solutions.
 
 ### Solution
 
@@ -59,11 +60,6 @@ class DoublyLinkedList {
         n.next.prev = n.prev;
     }
 
-    public void updateFreshness(Node n) { // Assumes 'n' is in this list
-        remove(n);
-        addFirst(n);
-    }
-
     public Node getFirst() {
         if (head.next == tail) {
             return null; // list has 0 Nodes
@@ -108,7 +104,7 @@ class LRUCache {
             return -1; // Problem wants -1 returned. It's better to throw Exception instead.
         }
         if (n != dll.getFirst()) {
-            dll.updateFreshness(n);
+            updateFreshness(n);
         }
         return n.value;
     }
@@ -117,6 +113,11 @@ class LRUCache {
         Node n = map.get(key);
         dll.remove(n);
         map.remove(key);
+    }
+
+    private void updateFreshness(Node n) { // Assumes 'n' is in this list
+        dll.remove(n);
+        dll.addFirst(n);
     }
 }
 ```
