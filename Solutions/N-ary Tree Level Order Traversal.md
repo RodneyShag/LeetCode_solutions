@@ -1,13 +1,9 @@
 ### Provided Code
 
 ```java
-public class TreeNode {
+public class Node {
     int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) {
-      val = x;
-    }
+    List<Node> children;
 }
 ```
 
@@ -15,24 +11,23 @@ public class TreeNode {
 
 ```java
 class Solution {
-    public List<List<Integer>> levelOrder(TreeNode root) {
+    public List<List<Integer>> levelOrder(Node root) {
         if (root == null) {
             return new ArrayList<>();
         }
         List<List<Integer>> lists = new ArrayList<>();
-        ArrayDeque<TreeNode> deque = new ArrayDeque<>(); // use deque as a queue
+        ArrayDeque<Node> deque = new ArrayDeque<>(); // use deque as a queue
         deque.add(root);
         while (!deque.isEmpty()) {
             int numNodesInLevel = deque.size();
             List<Integer> level = new ArrayList<>(numNodesInLevel);
             for (int i = 0; i < numNodesInLevel; i++) {
-                TreeNode n = deque.remove();
+                Node n = deque.remove();
                 level.add(n.val);
-                if (n.left != null) {
-                    deque.add(n.left);
-                }
-                if (n.right != null) {
-                    deque.add(n.right);
+                for (Node child : n.children) {
+                    if (child != null) {
+                        deque.add(child);
+                    }
                 }
             }
             lists.add(level);
