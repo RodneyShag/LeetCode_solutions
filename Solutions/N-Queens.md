@@ -1,5 +1,7 @@
 ### Algorithm
 
+Use "Backtracking" - an algorithm for finding all solutions by exploring all potential candidates.
+
 We will keep track of:
   1. Which columns we've already placed a queen in
   1. Which diagonals (top-left to bottom-right) we've placed a queen in

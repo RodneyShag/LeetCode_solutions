@@ -1,6 +1,7 @@
 ### Algorithm
 
 - Represent the T9 numberpad as a `HashMap<Character, String>`
+- Use "Backtracking" - an algorithm for finding all solutions by exploring all potential candidates.
 - This problem is similar to the [N-Queens](https://leetcode.com/problems/n-queens) problem
   - For the 0th digit, we will have 3-4 choices of letters, so we will try each one.
   - For the 1st digit, we will have 3-4 choices of letters, so we will try each one.

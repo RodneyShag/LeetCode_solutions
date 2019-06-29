@@ -2,7 +2,7 @@
   <a href="https://leetcode.com/rodneyshag">
     <img height=80 src="https://leetcode.com/static/webpack_bundles/images/logo-dark.e99485d9b.svg">
   </a>
-  <br>77 efficient solutions to LeetCode problems
+  <br>79 efficient solutions to LeetCode problems
   <br><br>
 </p>
 
@@ -67,6 +67,8 @@
 |  300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence)                                           | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Longest%20Increasing%20Subsequence.md)                                  |   Medium   |
 |  347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)                                                         | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Top%20K%20Frequent%20Elements.md)                                       |   Medium   |
 |  371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)                                                                 | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Sum%20of%20Two%20Integers.md)                                           |    Easy    |
+|  380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1)                                                 | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Insert%20Delete%20GetRandom%20O%281%29.md)                              |   Medium   |
+|  381 | [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed)         | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Insert%20Delete%20GetRandom%20O%281%29%20-%20Duplicates%20allowed.md)   |    Hard    |
 |  383 | [Ransom Note](https://leetcode.com/problems/ransom-note)                                                                                 | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Ransom%20Note.md)                                                       |    Easy    |
 |  384 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array)                                                                       | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Shuffle%20an%20Array.md)                                                |   Medium   |
 |  429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal)                                       | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/N-ary%20Tree%20Level%20Order%20Traversal.md)                            |    Easy    |

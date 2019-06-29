@@ -1,6 +1,6 @@
 ### Algorithm
 
-- This is a "backtracking" problem
+- Use "Backtracking" - an algorithm for finding all solutions by exploring all potential candidates.
 - Loop through the array, for each index, we have 2 possible "paths" to take.
   1. Don't use the number (and recursively continue)
   1. Use the number (and recursively continue).

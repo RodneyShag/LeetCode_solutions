@@ -10,21 +10,21 @@
 
 ```java
 class Solution {
+    Random random = new Random();
     int[] original;
     int[] array;
-    Random random;
 
-    public Solution(int[] array) {
-        if (array == null) {
+    public Solution(int[] nums) {
+         if (nums == null) {
             throw new IllegalArgumentException();
         }
-        original = array.clone();
-        this.array = array;
-        random = new Random();
+        original = nums.clone();
+        array = nums;
     }
 
     public int[] reset() {
-        return original;
+        array = original.clone();
+        return array;
     }
 
     public int[] shuffle() {
