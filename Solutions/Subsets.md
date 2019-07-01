@@ -44,5 +44,7 @@ These are the fastest complexities that can be achieved as there will always be 
 
 ### Similar BackTracking Problems
 
+- [Subsets II](https://leetcode.com/problems/subsets-ii)
 - [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)
-- [N-Queens](https://leetcode.com/problems/n-queens/)
+- [N-Queens](https://leetcode.com/problems/n-queens)
+- [Permutations](https://leetcode.com/problems/permutations) and [Permutations II](https://leetcode.com/problems/permutations-ii)

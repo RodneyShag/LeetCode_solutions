@@ -1,10 +1,9 @@
 ### Algorithm
 
 - This is the same question as [the "Subsets" problem](https://leetcode.com/problems/subsets) - Here's [my solution to that problem](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/LeetCode/Subsets.md)
-- We will make 2 minor changes to the solution above to account for removing duplicates
-  1. Sort the input array. This will ensure subsets [4, 1, 4] and [1, 4, 4] are the same set (since they're sorted to be [1, 4, 4])
-  1. Use a `Set` to remove duplicates. We don't want [1, 1, 4] to exist twice in our input set
-
+- We will make 2 changes to the solution above to account for removing duplicates
+  1. Use a `Set` to remove duplicates. For input [1,1,4] we don't want subset [1,4] to exist twice in our solution
+  1. Since we are using a `Set<List<Integer>>`, we will run into a problem if our input set is [1,4,1], as our code will create lists: [1,4] and [4,1]. To prevent this, we will sort our input set [1,4,1] to [1,1,4]. Now our code will create lists [1,4] and [1,4] where one of them will be removed by our `Set`
 
 ### Solution
 

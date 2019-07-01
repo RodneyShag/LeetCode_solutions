@@ -119,3 +119,9 @@ Time Complexity: O(n!) due to the size of our recursion tree
 If every leaf in our recursion tree represented a solution, our space complexity would be O(n!). However, for an 8x8 board, there are only exactly 92 solutions.
 
 It might make more sense to represent our space complexity as O(d * n<sup>2</sup>) where `d` is the number of solution boards. Keep in mind that `d` is not a constant, and also grows as `n` grows.
+
+### Similar BackTracking Problems
+
+- [Permutations](https://leetcode.com/problems/permutations) and [Permutations II](https://leetcode.com/problems/permutations-ii)
+- [Subsets](https://leetcode.com/problems/subsets) and [Subsets II](https://leetcode.com/problems/subsets-ii)
+- [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)

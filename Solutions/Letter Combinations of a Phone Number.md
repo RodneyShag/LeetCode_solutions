@@ -54,3 +54,9 @@ class Solution {
 
 -  Time Complexity: O(3<sup>N</sup> * 4<sup>M</sup>) where `N` is the number of digits in the input that maps to 3 letters (digits 2, 3, 4, 5, 6, 8) and `M` is the number of digits in the input that maps to 4 letters (digits 7, 9), where `N + M` is the total number of digits in the input.
 - Space Complexity: O(3<sup>N</sup> * 4<sup>M</sup>) as we will have that many strings in our returned solution
+
+### Similar BackTracking Problems
+
+- [Permutations](https://leetcode.com/problems/permutations) and [Permutations II](https://leetcode.com/problems/permutations-ii)
+- [Subsets](https://leetcode.com/problems/subsets) and [Subsets II](https://leetcode.com/problems/subsets-ii)
+- [N-Queens](https://leetcode.com/problems/n-queens)
