@@ -2,7 +2,6 @@
 
 - Represent the T9 numberpad as a `HashMap<Character, String>`
 - Use "Backtracking" - an algorithm for finding all solutions by exploring all potential candidates.
-- This problem is similar to the [N-Queens](https://leetcode.com/problems/n-queens) problem
   - For the 0th digit, we will have 3-4 choices of letters, so we will try each one.
   - For the 1st digit, we will have 3-4 choices of letters, so we will try each one.
   - ...
@@ -52,8 +51,12 @@ class Solution {
 
 ### Time/Space Complexity
 
--  Time Complexity: O(3<sup>N</sup> * 4<sup>M</sup>) where `N` is the number of digits in the input that maps to 3 letters (digits 2, 3, 4, 5, 6, 8) and `M` is the number of digits in the input that maps to 4 letters (digits 7, 9), where `N + M` is the total number of digits in the input.
-- Space Complexity: O(3<sup>N</sup> * 4<sup>M</sup>) as we will have that many strings in our returned solution
+Let `M`  be the number of digits in the input that maps to 3 letters (digits 2, 3, 4, 5, 6, 8) and `N` be the number of digits in the input that maps to 4 letters (digits 7, 9), where `M + N` is the total number of digits in the input.
+
+There will be 3<sup>M</sup> * 4<sup>N</sup> solutions, and each one will take O(M+N) time to copy into our `solutions`
+
+-  Time Complexity: O((M+ N) * 3<sup>M</sup> * 4<sup>N</sup>)
+- Space Complexity: O((M+ N) * 3<sup>M</sup> * 4<sup>N</sup>)
 
 ### Similar BackTracking Problems
 

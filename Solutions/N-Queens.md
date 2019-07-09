@@ -55,8 +55,8 @@ class Solution {
             Arrays.fill(row, '.');
         }
         Set<Integer> cols = new HashSet<>(); // columns   |
-        Set<Integer> d1 = new HashSet<>();   // diagonals \
-        Set<Integer> d2 = new HashSet<>();   // diagonals /
+        Set<Integer>   d1 = new HashSet<>(); // diagonals \
+        Set<Integer>   d2 = new HashSet<>(); // diagonals /
 
         List<List<String>> solutions = new ArrayList<>();
         placeQueens(board, n, solutions, 0, cols, d1, d2);
@@ -103,8 +103,7 @@ class Solution {
 
 ### Time Complexity
 
-Time Complexity: O(n!) due to the size of our recursion tree
-
+Time Complexity: O(n<sup>2</sup> * n!)
 
 - We used recursion to brute-force traverse this tree, trying every possible queen combination (other than the combinations that immediately fail). We never place a queen on the same column as a previous queen, which is why the number of choices on each row is 8, then at most 7, then at most 6, ... down to at most 1.
 - Our Recursion Tree will have n + 1 = 9 levels in it
@@ -112,13 +111,14 @@ Time Complexity: O(n!) due to the size of our recursion tree
   - Our next level represents row 0 (and will have 8 nodes in it)
   - Our next level represents row 1 (and will have 8 x 7 = 56 nodes in it)
   - Our last level represents row 7 (and will have 8 x 7 x 6... = 8! nodes in it)
-  - Therefore our recursion tree is of size O(n!) (which is determined by the n! leaves in the tree)
+  - Our recursion tree will have `n!` leaves in the tree
+- Therefore, there are `n!` solutions to generate, and each one takes O(n<sup>2</sup>) time to copy into our `solutions`
 
 ### Space Complexity
 
-If every leaf in our recursion tree represented a solution, our space complexity would be O(n!). However, for an 8x8 board, there are only exactly 92 solutions.
+One way to represent our space complexity is O(n<sup>2</sup> * n!) (for the same reasoning as above),
 
-It might make more sense to represent our space complexity as O(d * n<sup>2</sup>) where `d` is the number of solution boards. Keep in mind that `d` is not a constant, and also grows as `n` grows.
+However, for an 8x8 board, there are only exactly 92 solutions.  It might make more sense to represent our space complexity as O(n<sup>2</sup> * d) where `d` is the number of solution boards. Keep in mind that `d` is not a constant, and also grows as `n` grows.
 
 ### Similar BackTracking Problems
 

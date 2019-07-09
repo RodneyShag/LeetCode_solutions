@@ -37,10 +37,10 @@ class Solution {
 
 ### Time/Space Complexity
 
--  Time Complexity: O(2<sup>n</sup>)
-- Space Complexity: O(2<sup>n</sup>)
+There are 2<sup>n</sup> subsets to generate, and each one takes `O(n)` time to copy the `list` into our `solutions`
 
-These are the fastest complexities that can be achieved as there will always be O(2<sup>n</sup>) subsets to generate
+-  Time Complexity: O(n * 2<sup>n</sup>)
+- Space Complexity: O(n * 2<sup>n</sup>)
 
 ### Similar BackTracking Problems
 

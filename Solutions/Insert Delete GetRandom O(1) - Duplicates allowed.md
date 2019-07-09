@@ -56,7 +56,7 @@ class RandomizedCollection {
 
 ### Implementation Details
 
-In the code above, where we " update Map: update the moved number's index", we must do the `add` before the `remove`. This is to pass test cases like "add 7" then "remove 7". In this scenario, we want to ensure our `Set<Integer>` (for value 7) ends up empty.
+In the code above, where we " update Map: update the moved number's index", we must do the `put` before the `remove`. This is to pass test cases like "add 7" then "remove 7". In this scenario, we want to ensure our `Set<Integer>` (for value 7) ends up empty.
 
 ### Additional functionality
 

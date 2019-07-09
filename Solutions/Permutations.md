@@ -35,10 +35,10 @@ class Solution {
 
 ### Time/Space Complexity
 
--  Time Complexity: O(2<sup>n</sup>)
-- Space Complexity: O(2<sup>n</sup>)
+If you view this recursion as a tree, there will be `n!` leaf nodes, so there are O(n!) nodes in total. At each node, we do O(n) work looping through the array. So our runtime is O(n * n!).
 
-These are the fastest complexities that can be achieved as there will always be O(2<sup>n</sup>) permutations to generate
+-  Time Complexity: O(n * n!)
+- Space Complexity: O(n * n!)
 
 ### Similar BackTracking Problems
 
