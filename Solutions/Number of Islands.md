@@ -48,4 +48,4 @@ class Solution {
 ### Time/Space Complexity
 
 - Time Complexity: O(rows * cols)
-- Space Complexity: O(1)
+- Space Complexity: O(rows * cols) due to recursion
