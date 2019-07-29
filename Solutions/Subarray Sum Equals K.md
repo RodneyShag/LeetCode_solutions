@@ -3,7 +3,7 @@
 1. Use Dynamic Programming. For each element in array, save the sum from beginning of array until that element.
     - key: sum
     - value: number of contiguous arrays, starting at beginning of array, that sum to "key: sum"
-1. Our `HashMap` tells us `SUM[0...i]`. Our current `sum` gives us `SUM[0...j]`. So subtraction gives us `SUM[0...j] - SUM[0...i] = SUM[i...j]`. Each `SUM[i...j] == k` gives us 1 solution.
+1. Our `HashMap` tells us `SUM[0...i]`. Our current `sum` gives us `SUM[0...j]`. So subtraction gives us `SUM[0...j] - SUM[0...i] = SUM(i...j]` (the parenthesis is there since `i` is not included in that range). Each `SUM(i...j] == k` gives us 1 solution.
 
 ### Solution
 
