@@ -43,6 +43,18 @@ public class Solution {
 }
 ```
 
+### Integer Overflow
+
+The above solution causes integer overflow when calculating `mid = (lo + hi) / 2` if both `lo` and `hi` are really large numbers such as `lo = 2,000,000,000` and `hi = 2,000,000,000`. Integer overflow could also occur if both were really large negative numbers.
+
+One way around this is to use this more complicated expression instead:
+
+```
+mid = (lo > 0 && hi > 0) || (lo < 0 && hi < 0)
+    ? lo + (hi - lo) / 2
+    : (lo + hi) / 2
+```
+
 ### Time/Space Complexity
 
 -  Time Complexity: O(n) due to possible duplicates in array

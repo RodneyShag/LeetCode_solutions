@@ -33,8 +33,8 @@ class Solution {
         int distance = 1;
 
         while (!deque.isEmpty()) {
-            int n = deque.size();
-            for (int i = 0; i < n; i++) {
+            int wordsInLevel = deque.size();
+            for (int i = 0; i < wordsInLevel; i++) {
                 String word = deque.removeFirst();
                 if (word.equals(endWord)) {
                     return distance;
@@ -73,17 +73,18 @@ class Solution {
 
 1. Use a `HashMap<String, String> backtrackMap`.
 1. When adding a neighbor to our `visited` set, we would add it to our `backtrackMap` as well. The "key" would be the neighbor word, and the "value" would be the current word.
-1. If a solution is found, we could reconstruct the solution path from `backtrackMap`
+1. If a solution is found, we could reconstruct the solution path from `backtrackMap`.
 
-### Time Complexity
+### Time/Space Complexity
 
-- getNeighbors is O(26n) = `O(n)`, where n is the length of the String
-- total time complexity is `O(mn)` where `m` is # of words in dictionary, and `n` is length of longest word. Loop will dequeue at most `m` words, each of which take `n` time to process (to get its neighbors)
+Let `m` be length of longest word and `n` be number of words in dictionary
 
-### Space Complexity
-
-`O(mn)` space is needed to store words in our Deque/Sets
-
+- Time Complexity:  O(m<sup>2</sup>n)
+    - getNeighbors is O(26m<sup>2</sup>) = O(m<sup>2</sup>)
+    - Loop will dequeue at most n words, each of which take m<sup>2</sup> time to process (to get its neighbors)
+- Space Complexity: O(mn)
+    - `Set<String> words` requires O(mn) space.
+    - `getNeighbors()` returns `Set<String>` requiring O(m<sup>2</sup>) space, but it cannot return more words than originally provided as input in the problem, so O(m<sup>2</sup>) < O(mn).
 
 # Solution 2 - Bidirectional Search
 
@@ -151,8 +152,8 @@ class Solution {
                                    Set<String> visitedFromThisSide,
                                    Set<String> visitedFromThatSide,
                                    Set<String> words) {
-        int n = deque.size();
-        for (int i = 0; i < n; i++) {
+        int wordsInLevel = deque.size();
+        for (int i = 0; i < wordsInLevel; i++) {
             String word = deque.removeFirst();
             for (String neighbor : getNeighbors(word, words)) {
                 if (visitedFromThatSide.contains(neighbor)) {
@@ -192,5 +193,5 @@ I believe Bidirectional search is an excellent candidate for parallel processing
 
 ### Time/Space Complexity
 
-- Time Complexity: O(b<sup>(d/2)</sup>) as explained above. In our case, `b` will be `26n` where `n` is the length of the longest word
-- Space Complexity: `O(mn)` since we stored all words in `Set<String> words`
+- Time Complexity: O(b<sup>(d/2)</sup>) as explained at beginning of Solution 2. In our case, `b` is the max size of the `Set` returned by `getNeighbors()`, making `b = O(26m) = O(m)` where `m` is length of longest word.
+- Space Complexity: Same as in Solution 1.
