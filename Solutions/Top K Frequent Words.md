@@ -13,7 +13,7 @@ class Solution {
             return Collections.<String>emptyList();
         }
 
-        HashMap<String, Integer> map = new HashMap<>();
+        Map<String, Integer> map = new HashMap<>();
         for (String word : words) {
             map.merge(word, 1, Integer::sum);
         }
@@ -41,7 +41,7 @@ class Solution {
 
 ```java
 class TrieNode {
-    public HashMap<Character, TrieNode> children = new HashMap<>();
+    public Map<Character, TrieNode> children = new HashMap<>();
     public String word = null;
 
     public void putChildIfAbsent(char ch) {

@@ -20,7 +20,7 @@ One minor trick in creating a `Trie` is to omit storing any letters in the `Trie
 
 ```java
 class TrieNode {
-    private HashMap<Character, TrieNode> children = new HashMap<>();
+    private Map<Character, TrieNode> children = new HashMap<>();
     public boolean isEnd = false; // "public" for simplicity
 
     public void putChildIfAbsent(char ch) {
@@ -31,7 +31,9 @@ class TrieNode {
         return children.get(ch);
     }
 }
+```
 
+```java
 class Trie {
     TrieNode root = new TrieNode();
 

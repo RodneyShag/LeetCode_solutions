@@ -10,7 +10,7 @@
 ```java
 class Solution {
     public int subarraySum(int[] nums, int k) {
-        HashMap<Integer, Integer> savedSum = new HashMap<>();
+        Map<Integer, Integer> savedSum = new HashMap<>();
         savedSum.put(0, 1);
         int sum = 0;
         int result = 0;        

@@ -11,8 +11,8 @@
 
 ```java
 class MedianFinder {
-    private PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
-    private PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+    private Queue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+    private Queue<Integer> minHeap = new PriorityQueue<>();
 
     public void addNum(int num) {
         if (maxHeap.isEmpty()) {
@@ -66,13 +66,15 @@ O(log n) for addNum(). O(1) for findMedian()
 
 1. Divide problem into 3 subproblems. Here are the groupings:
     1. __Numbers < 0__: You have 2 options:
-        1. Use 2-heap solution (that we coded in original solution), or
-        1. Use 1 bucket
+		    1. Use 2-heap solution (that we coded in original solution), or
+	    	1. Use 1 array, which represents 1 bucket
     1. __0 <= Numbers <= 100__: Use 100 buckets using an array of size 100
     1. __100 < Numbers__: You have 2 options:
-        1. Use 2-heap solution (that we coded in original solution), or
-        1. Use 1 bucket
+	    	1. Use 2-heap solution (that we coded in original solution), or
+		    1. Use 1 array, which represents 1 bucket
 1. For each number we get in the stream, insert it into 1 of the 3 groupings, keeping track of the count of numbers in each of these 3 groupings
 1. To find the median, see which grouping the median must fall into and find it there.
 
-For __Numbers < 0__ and __100 < Numbers__, using 2 buckets is the more practical solution since it is very unlikely the median will fall into either bucket. This makes findMedian() O(1) in average case, but O(n) in worst case. If you use 2 heaps instead, you will get findMedian() of O(1) average case, O(log n) worst case.
+For __Numbers < 0__ and __100 < Numbers__, using 2 arrays/buckets is the more practical solution since it is very unlikely the median will fall into either bucket/array. This makes findMedian() O(1) in average case, but O(n) in worst case.
+
+If you use 2 heaps instead, you will get findMedian() of O(1) average case, O(log n) worst case.

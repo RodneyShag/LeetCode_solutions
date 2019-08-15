@@ -16,16 +16,16 @@ class Solution {
         return image;
     }
 
-    private void fill(int[][] image, int row, int col, int newColor, int firstColor) {
-        if (row < 0 || row >= image.length || col < 0 || col >= image[0].length) {
+    private void fill(int[][] image, int r, int c, int newColor, int firstColor) {
+        if (r < 0 || r >= image.length || c < 0 || c >= image[0].length) {
             return;
         }
-        if (image[row][col] == firstColor) {
-            image[row][col] = newColor;
-            fill(image, row - 1, col, newColor, firstColor);
-            fill(image, row + 1, col, newColor, firstColor);
-            fill(image, row, col - 1, newColor, firstColor);
-            fill(image, row, col + 1, newColor, firstColor);
+        if (image[r][c] == firstColor) {
+            image[r][c] = newColor;
+            fill(image, r - 1, c, newColor, firstColor);
+            fill(image, r + 1, c, newColor, firstColor);
+            fill(image, r, c - 1, newColor, firstColor);
+            fill(image, r, c + 1, newColor, firstColor);
         }
     }
 }

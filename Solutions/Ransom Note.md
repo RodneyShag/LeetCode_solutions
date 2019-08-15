@@ -8,7 +8,7 @@
 ```java
 class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
-        HashMap<Character, Integer> usableLetters = getLetters(magazine);
+        Map<Character, Integer> usableLetters = getLetters(magazine);
         for (int i = 0; i < ransomNote.length(); i++) {
             char letter = ransomNote.charAt(i);
             if (usableLetters.containsKey(letter) && usableLetters.get(letter) > 0) {
@@ -20,8 +20,8 @@ class Solution {
         return true;
     }
 
-    private HashMap<Character, Integer> getLetters(String magazine) {
-        HashMap<Character, Integer> letters = new HashMap<>();
+    private Map<Character, Integer> getLetters(String magazine) {
+        Map<Character, Integer> letters = new HashMap<>();
         for (int i = 0; i < magazine.length(); i++) {
             letters.merge(magazine.charAt(i), 1, Integer::sum);
         }

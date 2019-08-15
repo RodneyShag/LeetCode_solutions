@@ -18,10 +18,10 @@ class Solution {
         cols = grid[0].length;
         int count = 0;
 
-        for (int row = 0; row < rows; row++) {
-            for (int col = 0; col < cols; col++) {
-                if (grid[row][col] == '1') {
-                    explore(grid, row, col);
+        for (int r = 0; r < rows; r++) {
+            for (int c = 0; c < cols; c++) {
+                if (grid[r][c] == '1') {
+                    explore(grid, r, c);
                     count++;
                 }
             }
@@ -29,18 +29,18 @@ class Solution {
         return count;
     }
 
-    private void explore(char[][] grid, int row, int col) {
-        if (row < 0 || row >= rows || col < 0 || col >= cols || grid == null || grid[row][col] == '0') {
+    private void explore(char[][] grid, int r, int c) {
+        if (r < 0 || r >= rows || c < 0 || c >= cols || grid == null || grid[r][c] == '0') {
             return;
         }
 
-        grid[row][col] = '0'; // we alter the original matrix here
+        grid[r][c] = '0'; // we alter the original matrix here
 
         // Recursively search neighbors
-        explore(grid, row - 1, col);
-        explore(grid, row + 1, col);
-        explore(grid, row, col - 1);
-        explore(grid, row, col + 1);
+        explore(grid, r - 1, c);
+        explore(grid, r + 1, c);
+        explore(grid, r, c - 1);
+        explore(grid, r, c + 1);
     }
 }
 ```

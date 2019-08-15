@@ -13,7 +13,7 @@ class Solution {
             return Collections.<Integer>emptyList();
         }
 
-        HashMap<Integer, Integer> map = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap<>();
         for (int num : nums) {
             map.merge(num, 1, Integer::sum);
         }

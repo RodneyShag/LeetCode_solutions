@@ -16,7 +16,7 @@ class Solution {
             return new ArrayList<>();
         }
         List<List<Integer>> lists = new ArrayList<>();
-        ArrayDeque<Node> deque = new ArrayDeque<>(); // use deque as a queue
+        Deque<Node> deque = new ArrayDeque<>(); // use deque as a queue
         deque.add(root);
         while (!deque.isEmpty()) {
             int numNodesInLevel = deque.size();

@@ -16,7 +16,7 @@ class Solution {
             return new ArrayList<>();
         }
 
-        HashMap<String, List<String>> map = new HashMap<>();
+        Map<String, List<String>> map = new HashMap<>();
 
         for (String str : array) {
             String key = sortChars(str);
@@ -29,7 +29,7 @@ class Solution {
     }
 
     private String sortChars(String str) {
-        char[] content = str.toCharArray(); // Strings are immutable, which is why we convert to char[] first
+        char[] content = str.toCharArray(); // Strings are immutable, so we convert to char[]
         Arrays.sort(content);
         return new String(content);
     }

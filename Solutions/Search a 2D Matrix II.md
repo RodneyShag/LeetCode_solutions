@@ -16,16 +16,16 @@ class Solution {
         int cols = grid[0].length;
 
         // Start at top right corner
-        int row = 0;
-        int col = cols - 1;
+        int r = 0;
+        int c = cols - 1;
 
-        while (row < rows && col >= 0) {
-            if (grid[row][col] == target) {
+        while (r < rows && c >= 0) {
+            if (grid[r][c] == target) {
                 return true;
-            } else if (grid[row][col] > target) {
-                col--;
+            } else if (grid[r][c] > target) {
+                c--;
             } else {
-                row++;
+                r++;
             }
         }
         return false;

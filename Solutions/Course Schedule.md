@@ -15,7 +15,7 @@ enum Visited {
 class Node {
     int data;
     Visited status;
-    ArrayList<Node> neighbors; // could alternatively use a HashSet (if I give nodes unique IDs)
+    List<Node> neighbors; // could alternatively use a HashSet (if I give nodes unique IDs)
 
     public Node(int data) {
         this.data = data;

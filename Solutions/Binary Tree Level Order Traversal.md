@@ -20,7 +20,7 @@ class Solution {
             return new ArrayList<>();
         }
         List<List<Integer>> lists = new ArrayList<>();
-        ArrayDeque<TreeNode> deque = new ArrayDeque<>(); // use deque as a queue
+        Deque<TreeNode> deque = new ArrayDeque<>(); // use deque as a queue
         deque.add(root);
         while (!deque.isEmpty()) {
             int numNodesInLevel = deque.size();

@@ -6,7 +6,7 @@
     - key is slope
     - value is number of lines with that slope
 - However, we can't use a Double as a key in a HashMap due to precision problems with ==.
-- Fortunately, our input uses int and not double, so we can create a hash key using: `String slope = x + "/" + y` where we use GCD to put the slope in lowest terms.
+- Fortunately, our input uses int and not double, so we can create a hash key using: `String slope = y + "/" + x` where we use GCD to put the slope in lowest terms.
 - Example: y/x = 8/6 = 4/3 since GCD of x,y is 2.
 
 ### Solution
@@ -34,7 +34,7 @@ class Solution {
                 int gcd = generateGcd(x, y);
                 x /= gcd;
                 y /= gcd;
-                String slope = x + "/" + y; // key for HashMap
+                String slope = y + "/" + x; // key for HashMap
                 map.merge(slope, 1, Integer::sum);
             }
 
