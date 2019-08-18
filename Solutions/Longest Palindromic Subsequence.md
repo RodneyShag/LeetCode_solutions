@@ -20,7 +20,7 @@ class Solution {
         return LPS(str, 0, str.length() - 1, new HashMap<String, Integer>());
     }
 
-    private static int LPS(String str, int start, int end, Map<String, Integer> cache) {
+    private int LPS(String str, int start, int end, Map<String, Integer> cache) {
         String key = start + " " + end;
         if (cache.containsKey(key)) {
             return cache.get(key);

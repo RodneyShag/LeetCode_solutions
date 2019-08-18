@@ -70,7 +70,7 @@ class Solution {
         return sb1.indexOf(sb2.toString()) != -1;
     }
 
-    private static void getPreorder(TreeNode node, StringBuffer sb) {
+    private void getPreorder(TreeNode node, StringBuffer sb) {
         if (node == null) {
             sb.append("X");
             return;

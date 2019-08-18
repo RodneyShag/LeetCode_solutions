@@ -1,8 +1,8 @@
 ### Algorithm
 
 1. Preprocess the data: create 2 additional matrices.
-    1. In `left[][]`, for each cell, we store the number of ones immediately at left (and itself)
-    1. In   `up[][]`, for each cell, we store the number of ones immediately above (and itself)
+    - In `left[][]`, for each cell, we store the number of ones immediately at left (and itself)
+    - In   `up[][]`, for each cell, we store the number of ones immediately above (and itself)
 
 ```
 grid[3][3] = 1 1 1    left[3][3] = 1 2 3    up[3][3] = 1 1 1
