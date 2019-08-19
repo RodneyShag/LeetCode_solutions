@@ -17,7 +17,7 @@ Notice this is __not a binary search tree__. If it was, it would be equivalent t
 ### Provided Code
 
 ```java
-public class TreeNode {
+class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
