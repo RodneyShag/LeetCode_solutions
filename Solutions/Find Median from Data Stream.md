@@ -75,6 +75,6 @@ O(log n) for addNum(). O(1) for findMedian()
 1. For each number we get in the stream, insert it into 1 of the 3 groupings, keeping track of the count of numbers in each of these 3 groupings
 1. To find the median, see which grouping the median must fall into and find it there.
 
-For __Numbers < 0__ and __100 < Numbers__, using 2 arrays/buckets is the more practical solution since it is very unlikely the median will fall into either bucket/array. This makes findMedian() O(1) in average case, but O(n) in worst case.
+For __Numbers < 0__ and __100 < Numbers__, using 2 arrays/buckets is the more practical solution since it is very unlikely the median will fall into either bucket/array. This makes findMedian() O(1) in average case. In the worst case, all numbers fall in 1 array, and we would either have to use Quickselect (O(n) average case, O(n<sup>2</sup>) worst case), or sorting (O(n log n)) to find the median.
 
 If you use 2 heaps instead, you will get findMedian() of O(1) average case, O(log n) worst case.
