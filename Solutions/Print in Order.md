@@ -7,16 +7,9 @@ Use a Semaphore. Here is a good explanation of [Semaphores](https://www.geeksfor
 ### Code
 
 ```java
-import java.util.concurrent.Semaphore;
-
 class Foo {
-    Semaphore run2;
-    Semaphore run3;
-
-    public Foo() {
-        run2 = new Semaphore(0);
-        run3 = new Semaphore(0);
-    }
+    private Semaphore run2 = new Semaphore(0);
+    private Semaphore run3 = new Semaphore(0);
 
     public void first(Runnable printFirst) throws InterruptedException {
         printFirst.run();
@@ -49,16 +42,9 @@ Use a [CountDownLatch](https://docs.oracle.com/javase/7/docs/api/java/util/concu
 ### Code
 
 ```java
-import java.util.concurrent.CountDownLatch;
-
 class Foo {
-    private final CountDownLatch latch2;
-    private final CountDownLatch latch3;
-
-    public Foo() {
-        latch2 = new CountDownLatch(1);
-        latch3 = new CountDownLatch(1);
-    }
+    private CountDownLatch latch2 = new CountDownLatch(1);
+    private CountDownLatch latch3 = new CountDownLatch(1);
 
     public void first(Runnable printFirst) throws InterruptedException {
         printFirst.run();
