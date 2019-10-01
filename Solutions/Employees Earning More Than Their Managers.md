@@ -1,6 +1,6 @@
-### Notes
+### Hint
 
-Use a [Self Join](https://www.w3schools.com/sql/sql_join_self.asp)
+Use a [SELF JOIN](https://www.w3schools.com/sql/sql_join_self.asp)
 
 ### MySQL Solution
 

@@ -1,3 +1,7 @@
+### Hints
+
+Use [GROUP BY](https://www.w3schools.com/sql/sql_groupby.asp) on `id`, so that the different `month` values for the same `id` can be combined.
+
 ### MySQL Solution
 
 ```sql

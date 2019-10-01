@@ -1,6 +1,7 @@
-### Notes
+### Hint
 
-We can use the built-in [DATEDIFF](https://dev.mysql.com/doc/refman/5.7/en/date-and-time-functions.html#function_datediff) function to give us the number of days that 2 `Date`s differ by.
+- Use a [SELF JOIN](https://www.w3schools.com/sql/sql_join_self.asp)
+- Use the built-in [DATEDIFF](https://dev.mysql.com/doc/refman/5.7/en/date-and-time-functions.html#function_datediff) function to find the number of days that 2 `Date`s differ by.
 
 ### MySQL Solution
 
