@@ -21,7 +21,7 @@ class Solution {
         return list;
     }
 
-    private static void inorderTraversal(TreeNode node, List<Integer> list) {
+    private void inorderTraversal(TreeNode node, List<Integer> list) {
         if (node != null) {
             inorderTraversal(node.left, list);
             list.add(node.val);

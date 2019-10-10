@@ -30,7 +30,7 @@ ORDER BY a.id
 
 ### Notes
 
-Use the `DISTINCT` keyword to remove duplicates in our solution, since if `a` fell in this spot:
+Use the `DISTINCT` keyword to remove duplicates in our solution. If `a` fell in this spot:
 
 ```
 +------+
@@ -43,4 +43,5 @@ Use the `DISTINCT` keyword to remove duplicates in our solution, since if `a` fe
 |  200 |
 +------+
 ```
+
 we would have duplicates since `a` is the start of 3 consecutive rows, the middle of 3 consecutive rows, and the end of 3 consecutive rows.

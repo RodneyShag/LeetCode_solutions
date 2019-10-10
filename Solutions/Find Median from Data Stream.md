@@ -15,16 +15,13 @@ class MedianFinder {
     private Queue<Integer> minHeap = new PriorityQueue<>();
 
     public void addNum(int num) {
-        if (maxHeap.isEmpty()) {
-            maxHeap.add(num);
-        } else if (maxHeap.size() == minHeap.size()) {
+        if (maxHeap.size() == minHeap.size()) {
             minHeap.add(num);
             maxHeap.add(minHeap.remove());
         } else if (maxHeap.size() > minHeap.size()) {
             maxHeap.add(num);
             minHeap.add(maxHeap.remove());
-        }
-        // maxHeap will never be smaller size than minHeap
+        } // maxHeap will never be smaller size than minHeap
     }
 
     public double findMedian() {
@@ -48,6 +45,10 @@ O(log n) for addNum(). O(1) for findMedian()
 - O(1) for storage of each number
 - O(1) for addNum()
 - O(1) for findMedian()
+
+### Alternate Solution
+
+Instead of 2 heaps, you can use a self-balancing Binary Search Tree (like an AVL Tree). See [LeetCode Solution - Approach 4: Multiset and Two Pointers](https://leetcode.com/problems/find-median-from-data-stream/solution/) for an excellent explanation. Unfortunately it does not seem that Java has a `Multiset` for us to use.
 
 ### Followup #1 - If all integer numbers from the stream are between 0 and 100, how would you optimize it
 
