@@ -11,7 +11,9 @@ class TreeNode {
 }
 ```
 
-### Solution
+### Solution 1
+
+If inputs `t1` and `t2` represent immutable trees, we can reuse nodes from these trees instead of creating new nodes. This makes merging big subtrees with small subtrees much more efficient.
 
 ```java
 class Solution {
@@ -32,11 +34,28 @@ class Solution {
 }
 ```
 
-### Implementation Notes
+### Solution 2
 
-We reuse nodes from the trees instead of creating new nodes to since this makes merging big subtrees with small subtrees much more efficient.
+If reusing `TreeNode`s is not allowed, we can always create new `TreeNode`s as shown below
 
-### Time/Space Complexity
+```java
+class Solution {
+    public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
+        if (t1 == null && t2 == null) {
+            return null;
+        }
+        TreeNode t = new TreeNode(
+            (t1 == null ? 0 : t1.val) +
+            (t2 == null ? 0 : t2.val)
+        );
+        t.left = mergeTrees(t1 == null ? null : t1.left, t2 == null ? null : t2.left);
+        t.right = mergeTrees(t1 == null ? null : t1.right, t2 == null ? null : t2.right);
+        return t;
+    }
+}
+```
+
+### Time/Space Complexity (for both solutions)
 
 -  Time Complexity: O(n + m) where n is number of nodes in t1, m is number of nodes in t2
 - Space Complexity: O(log (n+m)) if balanced tree, O(n + m) otherwise
