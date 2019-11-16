@@ -58,3 +58,8 @@ class Solution {
 
 -  Time Complexity: O(min(m + n))
 - Space Complexity: O(1)
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/unique-paths/discuss/306448)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

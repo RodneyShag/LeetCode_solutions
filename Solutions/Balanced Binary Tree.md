@@ -47,3 +47,8 @@ class Solution {
 
 -  Time Complexity: O(n)
 - Space Complexity: O(log n) if balanced tree. O(n) otherwise.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/balanced-binary-tree/discuss/304502)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

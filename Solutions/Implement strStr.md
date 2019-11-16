@@ -76,3 +76,8 @@ class Solution {
   - O(m) is to build the "LPS" array
   - O(n) is the while loop in `strStr()`. Tricky: In the while loop, in the last `else`, when we don't do `i++`, notice `j` backtracks an __amortized__ time of once for each increment of `i`.
 - Space Complexity: O(m)
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/implement-strstr/discuss/304532)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -23,3 +23,8 @@ WHERE    (Request_at BETWEEN '2013-10-01' AND '2013-10-03') AND
          Driver_Id IN (SELECT Users_Id FROM Users WHERE Banned = 'No')
 GROUP BY Request_at;
 ```
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/trips-and-users/discuss/394443)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -49,3 +49,8 @@ class Solution {
 
 - Time Complexity: O(rows * cols)
 - Space Complexity: O(rows * cols)
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/max-area-of-island/discuss/304463)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

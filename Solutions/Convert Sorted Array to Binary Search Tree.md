@@ -39,3 +39,8 @@ class Solution {
 
 -  Time Complexity: O(n)
 - Space Complexity: O(n) since we're creating a Binary Search Tree
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/discuss/304503)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -63,3 +63,8 @@ class Solution {
 
 -  Time Complexity: O(n^2)
 - Space Complexity: O(n) due to HashMap
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/max-points-on-a-line/discuss/355703)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

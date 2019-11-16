@@ -84,3 +84,8 @@ class Solution {
 ### Additional Notes
 
 [According to LeetCode Solutions 5 and 6](https://leetcode.com/problems/climbing-stairs/solution), this problem can also be solved in log(n) time using either Matrix Multiplication, or the Fibonacci formula. However, those solutions are out of scope for a coding interview, as they are too mathematical.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/fibonacci-number/discuss/304450)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

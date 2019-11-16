@@ -30,3 +30,8 @@ class Solution {
 
 - Time Complexity: O(1)
 - Space Complexity: O(1)
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/delete-node-in-a-linked-list/discuss/312458)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

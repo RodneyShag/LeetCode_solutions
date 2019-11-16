@@ -45,3 +45,8 @@ class Solution {
 
 -  Time Complexity: O(rows * cols)
 - Space Complexity: O(1), assuming we're allowed to alter the original maze
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/unique-paths-ii/discuss/343886)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

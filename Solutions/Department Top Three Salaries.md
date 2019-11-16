@@ -13,3 +13,8 @@ WHERE E1.DepartmentId = D.Id AND
 ### Notes
 
 The subquery `SELECT COUNT...` counts how many Employees `E2` have a salary greater than Employee `E1`. That value must be less than 3 for the `E1` salary to be in the top 3 salaries.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/department-top-three-salaries/discuss/394442)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

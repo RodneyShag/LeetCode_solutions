@@ -59,3 +59,8 @@ class Solution {
 
 -  Time Complexity: O(n + m) where n is number of nodes in t1, m is number of nodes in t2
 - Space Complexity: O(log (n+m)) if balanced tree, O(n + m) otherwise
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/merge-two-binary-trees/discuss/426232)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

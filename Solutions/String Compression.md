@@ -32,3 +32,8 @@ class Solution {
 
 -  Time Complexity: O(n)
 - Space Complexity: O(log n) due to our `toCharArray()` call which uses O(log<sub>10</sub> n) space, where the 10 represents the number of possible digits 0-9.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/string-compression/discuss/308125)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

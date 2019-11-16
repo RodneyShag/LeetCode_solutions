@@ -27,3 +27,8 @@ class Solution {
 
 - Time Complexity: O(amount * coins)
 - Space Complexity: O(amount)
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/coin-change-2/discuss/304455)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

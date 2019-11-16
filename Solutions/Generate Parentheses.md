@@ -40,3 +40,8 @@ A `char[]` was used instead of a `StringBuffer` to remove necessity of including
 - Space Complexity: O(2<sup>n</sup>)
 
 However, the official LeetCode solutions there is a very difficult mathematical proof to get a tighter bound on the time/space complexity, by using "Catalan" numbers. You are not expected to know this for an interview.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/generate-parentheses/discuss/324390)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

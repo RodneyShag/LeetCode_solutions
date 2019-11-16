@@ -11,3 +11,8 @@ SELECT
 FROM Scores AS S1
 ORDER BY Score DESC
 ```
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/rank-scores/discuss/393930)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

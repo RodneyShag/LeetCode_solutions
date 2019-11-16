@@ -142,3 +142,8 @@ class Solution {
 
 - Time Complexity: O(n log n)
 - Space Complexity: O(1)
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/sort-list/discuss/356829)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

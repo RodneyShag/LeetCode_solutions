@@ -42,3 +42,8 @@ There are 2<sup>n</sup> subsets to generate, and each one takes `O(n)` time to c
 
 -  Time Complexity: O(n * 2<sup>n</sup>)
 - Space Complexity: O(n * 2<sup>n</sup>)
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/subsets-ii/discuss/324262)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

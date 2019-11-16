@@ -123,6 +123,7 @@ class LRUCache {
 ```
 
 ### Time/Space Complexity
+
 -  Time Complexity: `put()`, `get()`, `remove()` are O(1) time
 - Space Complexity: Depends on cache size. Can make it as big as we want.
 
@@ -131,3 +132,8 @@ class LRUCache {
 Java has an LRU cache available - it is just a [LinkedHashMap](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashMap.html) with an "accessOrder" flag set to "true". This will create an LRU cache for you. The [Android source code](https://android.googlesource.com/platform/frameworks/support.git/+/795b97d901e1793dac5c3e67d43c96a758fec388/v4/java/android/support/v4/util/LruCache.java) uses a `LinkedHashMap` to create an LRU cache as well.
 
 A concise `LinkedHashMap` solution is found [here](https://leetcode.com/problems/lru-cache/discuss/45939/Laziest-implementation%3A-Java's-LinkedHashMap-takes-care-of-everything), but this solution is likely not what the interviewer is looking for.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/lru-cache/discuss/309691)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

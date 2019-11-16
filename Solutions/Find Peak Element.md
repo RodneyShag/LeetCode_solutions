@@ -32,3 +32,8 @@ class Solution {
 
 -  Time Complexity: O(log n)
 - Space Complexity: O(1)
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/find-peak-element/discuss/304478)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

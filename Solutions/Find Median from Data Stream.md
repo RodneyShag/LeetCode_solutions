@@ -79,3 +79,8 @@ Instead of 2 heaps, you can use a self-balancing Binary Search Tree (like an AVL
 For __Numbers < 0__ and __100 < Numbers__, using 2 arrays/buckets is the more practical solution since it is very unlikely the median will fall into either bucket/array. This makes findMedian() O(1) in average case. In the worst case, all numbers fall in 1 array, and we would either have to use Quickselect (O(n) average case, O(n<sup>2</sup>) worst case), or sorting (O(n log n)) to find the median.
 
 If you use 2 heaps instead, you will get findMedian() of O(1) average case, O(log n) worst case.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/find-median-from-data-stream/discuss/343662)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

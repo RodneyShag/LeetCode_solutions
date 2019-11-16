@@ -89,3 +89,8 @@ class Solution {
 
 - Time Complexity: O(nk), where `n` is the number of strings, and `k` is the length of the longest string.
 - Space Complexity: O(nk) for storing the strings.
+
+# Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/group-anagrams/discuss/308683)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

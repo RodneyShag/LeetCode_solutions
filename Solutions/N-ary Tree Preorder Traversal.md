@@ -36,3 +36,8 @@ class Solution {
 ### Notes
 
 The follow-up question asks us for an iterative solution, but there is no benefit to that solution as neither the time or space complexity is improved by solving the problem iteratively.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/n-ary-tree-preorder-traversal/discuss/312431)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -45,3 +45,8 @@ class Solution {
 
 -  Time Complexity: O(n) since we visit each `TreeNode` once
 - Space Complexity: O(log n) for a balanced tree, O(n) otherwise. The space complexity is due to recursion.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/symmetric-tree/discuss/397360)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

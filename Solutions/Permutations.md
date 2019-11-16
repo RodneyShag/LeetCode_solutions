@@ -46,3 +46,8 @@ If you view this recursion as a tree, there will be `n!` leaf nodes, so there ar
 - [Subsets](https://leetcode.com/problems/subsets) and [Subsets II](https://leetcode.com/problems/subsets-ii)
 - [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)
 - [N-Queens](https://leetcode.com/problems/n-queens)
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/permutations/discuss/324282)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

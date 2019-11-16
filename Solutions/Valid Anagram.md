@@ -33,3 +33,8 @@ class Solution {
 
 -  Time Complexity: O(n)
 - Space Complexity: O(1), since our HashMap has a maximum size corresponding either to 256 ASCII characters, or to about 1 million Unicode characters.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/valid-anagram/discuss/312677)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

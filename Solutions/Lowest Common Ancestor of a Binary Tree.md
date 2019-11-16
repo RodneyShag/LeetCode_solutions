@@ -60,3 +60,8 @@ class Solution {
 
 -  Time Complexity: O(n) since we may have to search all the nodes.
 - Space Complexity: O(log n) if balanced tree, O(n) otherwise. The space complexity is due to recursion.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/discuss/328244)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -31,3 +31,8 @@ class Solution {
 
 -  Time Complexity: O(n)
 - Space Complexity: O(1) since we have a finite number of characters (ASCII or Unicode) to store in a `HashMap`
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/first-unique-character-in-a-string/discuss/396406)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

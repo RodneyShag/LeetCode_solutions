@@ -14,3 +14,8 @@ WHERE
   DATEDIFF(w1.RecordDate, w2.RecordDate) = 1 AND
   w1.Temperature > w2.Temperature
 ```
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/rising-temperature/discuss/393689)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

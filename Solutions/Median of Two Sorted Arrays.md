@@ -51,3 +51,8 @@ class Solution {
 
 - Time Complexity: O(min(log(x, y)))
 - Space Complexity: O(1)
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/median-of-two-sorted-arrays/discuss/304557)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -86,3 +86,8 @@ class Trie {
 
 1. Finding all words (or the number of words) with a common prefix.
 1. Enumerating a dataset of strings in alphabetical order.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/implement-trie-prefix-tree/discuss/343170)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

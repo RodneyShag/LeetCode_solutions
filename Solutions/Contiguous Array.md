@@ -60,3 +60,8 @@ class Solution {
 
 -  Time Complexity: O(n)
 - Space Complexity: O(n)
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/contiguous-array/discuss/346192)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

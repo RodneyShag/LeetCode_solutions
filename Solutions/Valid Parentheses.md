@@ -35,3 +35,8 @@ class Solution {
 
 - Time Complexity: O(n)
 - Space Complexity: O(n)
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/valid-parentheses/discuss/304546)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

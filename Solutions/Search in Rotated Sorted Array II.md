@@ -59,3 +59,8 @@ mid = (lo > 0 && hi > 0) || (lo < 0 && hi < 0)
 
 -  Time Complexity: O(n) due to possible duplicates in array
 - Space Complexity: O(1)
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/discuss/304521)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

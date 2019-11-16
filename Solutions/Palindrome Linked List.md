@@ -85,3 +85,8 @@ Our code destroyed the ordering of the original list. If we wanted to preserve t
 1. Deep copy list.
 1. Reverse it.
 1. Compare it to original.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/palindrome-linked-list/discuss/308158)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

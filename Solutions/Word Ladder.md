@@ -195,3 +195,9 @@ I believe Bidirectional search is an excellent candidate for parallel processing
 
 - Time Complexity: O(b<sup>(d/2)</sup>) as explained at beginning of Solution 2. In our case, `b` is the max size of the `Set` returned by `getNeighbors()`, making `b = O(26m) = O(m)` where `m` is length of longest word.
 - Space Complexity: Same as in Solution 1.
+
+
+# Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/word-ladder/discuss/345900)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

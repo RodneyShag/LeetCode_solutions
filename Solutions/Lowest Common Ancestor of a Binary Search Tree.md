@@ -53,3 +53,8 @@ class Solution {
 
 -  Time Complexity: O(log n) if balanced tree, O(n) otherwise
 - Space Complexity: O(1)
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/discuss/328209)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

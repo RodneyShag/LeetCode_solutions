@@ -31,3 +31,8 @@ class Solution {
 ### Follow-up Question
 
 The follow-up question asks to "do it without extra space and O(n) runtime", but since we still need O(n) space for the returned list, I don't see a practical reason to solve this problem with the follow-up added restriction.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/find-all-duplicates-in-an-array/discuss/426231)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

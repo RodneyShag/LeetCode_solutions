@@ -52,3 +52,8 @@ class Solution {
 
 - Time Complexity: O(n<sup>3</sup>) due to 3 nested "for" loops
 - Space Complexity: O(n<sup>2</sup>) due to preprocessing
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/largest-1-bordered-square/discuss/360612)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -51,3 +51,8 @@ public int maxProfit(int[] prices) {
 
 -  Time Complexity: O(n)
 - Space Complexity: O(1)
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/discuss/426314)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

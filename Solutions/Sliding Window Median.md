@@ -72,8 +72,12 @@ __Integer Overflow__ - We cast to `double` (when finding median) to avoid intege
 
 The cast was also necessary to be able to get decimal values when dividing (such as `(3+4)/2 = 3.5`)
 
-
 ### Time/Space Complexity
 
 -  Time Complexity: `O(n log k)`. Add/remove from a TreeSet is O(log k). There are O(n) elements to add/remove.
 - Space Complexity: `O(k)` for storage in our TreeSets.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/sliding-window-median/discuss/401208)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

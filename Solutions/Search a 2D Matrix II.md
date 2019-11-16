@@ -45,3 +45,8 @@ Instead of starting from top-right and moving to bottom-left, do it the other wa
 ### Alternative Solution 2
 
 Binary search every row. However, this solution is slower, as it's for O(rows * log(cols)) runtime.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/search-a-2d-matrix-ii/discuss/313468)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

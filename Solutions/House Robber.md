@@ -103,3 +103,8 @@ class Solution {
     }
 }
 ```
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/house-robber/discuss/426234)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

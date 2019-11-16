@@ -3,7 +3,6 @@
 1. Sort by increasing height, decreasing width. So if we have [width, height] of [2, 5], [2, 6], [2,7], they would be sorted to [2, 7], [2, 6], [2,5]
 1. Since the widths are already in increasing order, we can use the [Longest Increasing Subsequence (LIS)](https://leetcode.com/problems/longest-increasing-subsequence/) algorithm on the heights to get our answer. [Here is an implementation of LIS](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Longest%20Increasing%20Subsequence.md)
 
-
 ### Example
 
 ```
@@ -19,7 +18,6 @@ Longest Increasing Subsequence (LIS) on heights gives us:
 solution:
       [1 1]   [2 2]         [3 3]   [4 4]
 ```
-
 
 ### Solution
 
@@ -66,3 +64,8 @@ class Solution {
 
 -  Time Complexity: O(n log n) due to sorting
 - Space Complexity: O(n) for storing `sortedArray` variable
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/russian-doll-envelopes/discuss/348428)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

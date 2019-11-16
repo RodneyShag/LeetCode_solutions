@@ -41,3 +41,8 @@ class Solution {
 
 - Time Complexity: O(n<sup>2</sup>)
 - Space Complexity: O(n<sup>2</sup>) since our `Map` will have n<sup>2</sup> keys if every sum A[i] + B[j] is unique
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/4sum-ii/discuss/336436)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

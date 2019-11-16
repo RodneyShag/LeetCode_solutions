@@ -37,3 +37,8 @@ class Solution {
 
 - Time Complexity: O(n)
 - Space Complexity: O(1) by doing an "in place" rotation
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/rotate-array/discuss/304476)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

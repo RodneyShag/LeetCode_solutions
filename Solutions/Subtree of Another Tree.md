@@ -88,3 +88,8 @@ class Solution {
 - Space Complexity: O(m + n)
 
 [Java's implementation for .indexOf() for Strings](http://hg.openjdk.java.net/jdk8/jdk8/jdk/file/tip/src/share/classes/java/lang/String.java#l1740) is naively O(n<sup>2</sup>) since it doesn't use the KMP algorithm! If `.indexOf()` is this slow for `StringBuffer`, then use this [O(n) implementation of KMP algorithm](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Implement%20strStr.md) instead.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/subtree-of-another-tree/discuss/361602)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

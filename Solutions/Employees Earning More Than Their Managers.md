@@ -13,3 +13,8 @@ FROM
 WHERE
     a.ManagerId = b.Id AND a.Salary > b.Salary
 ```
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/employees-earning-more-than-their-managers/discuss/393527)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

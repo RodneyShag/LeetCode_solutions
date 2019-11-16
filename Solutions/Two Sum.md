@@ -29,3 +29,8 @@ class Solution {
 
 -  Time Complexity: O(n)
 - Space Complexity: O(n)
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/two-sum/discuss/304558)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

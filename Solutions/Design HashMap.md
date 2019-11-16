@@ -149,3 +149,8 @@ class MyHashMap {
 
 -  Time complexity: O(1) average and O(n) worst case for get(), put() and remove().
 - Space complexity: O(n).
+
+# Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/design-hashmap/discuss/346157)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

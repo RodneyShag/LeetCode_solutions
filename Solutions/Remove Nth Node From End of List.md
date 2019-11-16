@@ -44,3 +44,8 @@ class Solution {
 ### Follow-up Solution
 
 There is no benefit in solving this problem in 1 pass instead of 2 passes, as the time and space complexity remain the same. In both solutions, you would still have to traverse every element in the list.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/discuss/312878)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

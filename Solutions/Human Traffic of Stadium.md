@@ -45,3 +45,8 @@ Use the `DISTINCT` keyword to remove duplicates in our solution. If `a` fell in 
 ```
 
 we would have duplicates since `a` is the start of 3 consecutive rows, the middle of 3 consecutive rows, and the end of 3 consecutive rows.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/human-traffic-of-stadium/discuss/394444)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

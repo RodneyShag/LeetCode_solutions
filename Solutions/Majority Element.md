@@ -46,3 +46,8 @@ boolean isCandidateValid(int[] array, int candidate) {
     return count * 2 > array.length;
 }
 ```
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/majority-element/discuss/304477)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

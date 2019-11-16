@@ -120,3 +120,8 @@ class MyLinkedList { // Singly-Linked List
 
 - Each node uses O(1) storage.
 - Calls to each function above takes O(1) space
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/design-linked-list/discuss/343580)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

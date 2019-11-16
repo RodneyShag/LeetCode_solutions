@@ -29,3 +29,8 @@ class Solution {
 
 - Time Complexity: O(n) since we must touch all nodes
 - Space Complexity: O(n) due to recursion (on a tree that may not be balanced)
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/maximum-depth-of-binary-tree/discuss/304504)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

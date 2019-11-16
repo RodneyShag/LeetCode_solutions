@@ -27,6 +27,7 @@ n & (n - 1) = 00000000
 -  Time Complexity: O(1)
 - Space Complexity: O(1)
 
+
 # Solution 2
 
 ### Algorithm
@@ -55,3 +56,9 @@ public boolean isPowerOfTwo(int n) {
 
 -  Time Complexity: O(1)
 - Space Complexity: O(1)
+
+
+# Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/power-of-two/discuss/312852)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

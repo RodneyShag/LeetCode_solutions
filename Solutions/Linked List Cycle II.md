@@ -50,3 +50,8 @@ public class Solution {
 
 -  Time Complexity: O(n), where n is number of nodes in List.
 - Space Complexity: O(1)
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/linked-list-cycle-ii/discuss/308124)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -125,3 +125,8 @@ However, for an 8x8 board, there are only exactly 92 solutions.  It might make m
 - [Permutations](https://leetcode.com/problems/permutations) and [Permutations II](https://leetcode.com/problems/permutations-ii)
 - [Subsets](https://leetcode.com/problems/subsets) and [Subsets II](https://leetcode.com/problems/subsets-ii)
 - [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/n-queens/discuss/308957)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

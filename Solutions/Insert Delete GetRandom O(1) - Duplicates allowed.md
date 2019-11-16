@@ -72,3 +72,8 @@ public boolean contains(int num) {
 
 - Time Complexity: `O(1)` for insert(), remove(), getRandom(), contains(). Technically it's "amortized O(1)" time, since that's the runtime for adding to `ArrayList` or `HashMap` in Java.
 - Space Complexity: `O(1)` for each added element
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/discuss/323134)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

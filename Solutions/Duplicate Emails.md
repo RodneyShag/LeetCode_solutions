@@ -11,3 +11,8 @@ SELECT Email FROM Person
 GROUP BY Email
 HAVING Count(Email) > 1
 ```
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/duplicate-emails/discuss/393542)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

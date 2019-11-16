@@ -60,6 +60,7 @@ class Solution {
 -  Time Complexity: O(n)
 - Space Complexity: O(n)
 
+
 # Solution 2 - Optimizing Space Complexity
 
 ### Algorithm
@@ -89,3 +90,9 @@ class Solution {
 
 -  Time Complexity: O(n)
 - Space Complexity: O(1)
+
+
+# Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/maximum-subarray/discuss/329089)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

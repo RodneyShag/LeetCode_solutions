@@ -82,3 +82,8 @@ class Solution extends SolBase {
 ### Follow-up Solution
 
 Reducing the number of calls to `rand7()` is not very beneficial, as the runtime will still be `O(1)` average case, `O(∞)` worst case
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/implement-rand10-using-rand7/discuss/312597)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -63,3 +63,8 @@ Now `p1` is our final table:
 | 2  | bob@example.com  |
 +----+------------------+
 ```
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/delete-duplicate-emails/discuss/393675)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

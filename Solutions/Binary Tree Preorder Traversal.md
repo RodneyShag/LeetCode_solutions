@@ -39,3 +39,8 @@ class Solution {
 ### Notes
 
 The follow-up question asks us for an iterative solution, but there is no benefit to that solution as neither the time or space complexity is improved by solving the problem iteratively.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/binary-tree-preorder-traversal/discuss/304490)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

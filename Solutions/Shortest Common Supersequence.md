@@ -72,3 +72,8 @@ class Solution {
 Notice we only constructed 1 String in this solution, which enables us to have a fast LeetCode runtime (18ms).
 
 You may wonder if we could reduce the space complexity further like in [Solution 3 of detailed explanation](https://github.com/RodneyShag/Interview_solutions/blob/master/Solutions/Custom/Shortest%20Common%20SuperSequence.md). My comment on [this post](https://leetcode.com/problems/shortest-common-supersequence/discuss/312730) shows why it's not possible.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/shortest-common-supersequence/discuss/358990)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

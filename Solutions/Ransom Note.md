@@ -34,3 +34,9 @@ class Solution {
 
 -  Time Complexity: O(n + m)
 - Space Complexity: O(m) to store `magazine` in a `HashMap` of characters
+
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/ransom-note/discuss/304447)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

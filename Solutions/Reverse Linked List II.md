@@ -83,3 +83,8 @@ For `while (curr != null && numReverses-- > 0)` above, `curr` will never be null
 
 -  Time Complexity: O(n)
 - Space Complexity: O(1)
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/reverse-linked-list-ii/discuss/327199)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

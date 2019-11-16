@@ -32,3 +32,8 @@ class Solution {
 
 -  Time Complexity: O(n) since we must visit every TreeNode.
 - Space Complexity: O(log n) if balanced tree. O(n) otherwise.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/invert-binary-tree/discuss/401523)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

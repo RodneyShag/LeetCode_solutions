@@ -48,3 +48,8 @@ public class Solution {
 
 -  Time Complexity: O(log n) since no duplicates exist in array
 - Space Complexity: O(1)
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/discuss/304527)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

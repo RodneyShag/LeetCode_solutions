@@ -53,3 +53,8 @@ For `max`, we used a global instance variable. Alternatively, you can [wrap the 
 
 -  Time Complexity: O(n) since we must visit each node.
 - Space Complexity: O(log n) if balanced tree, O(n) otherwise. Space complexity is due to the recursion.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/diameter-of-binary-tree/discuss/402015)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

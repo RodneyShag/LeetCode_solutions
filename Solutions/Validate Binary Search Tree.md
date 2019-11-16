@@ -34,3 +34,8 @@ class Solution {
 
 - Time Complexity: O(n)
 - Space Complexity: O(log n) if balanced tree. O(n) if not balanced.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/validate-binary-search-tree/discuss/304509)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

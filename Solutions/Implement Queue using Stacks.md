@@ -54,3 +54,8 @@ class MyQueue {
 
 -  Time Complexity: O(1) _amortized_ time for `push()`, `pop()`, `peek()`, `empty()`, as each element is only moved from `stack1` to `stack2` at most once.
 - Space Complexity: O(1) for each element being put into our queue.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/implement-queue-using-stacks/discuss/308183)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

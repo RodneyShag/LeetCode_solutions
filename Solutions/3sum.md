@@ -52,3 +52,8 @@ class Solution {
 
 - Time Complexity: O(n<sup>2</sup>)
 - Space Complexity: Depends on `Arrays.sort()`. Can be as low as O(1).
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/3sum/discuss/304552)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

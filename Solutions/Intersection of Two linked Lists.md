@@ -44,3 +44,8 @@ public class Solution {
 
 -  Time Complexity: O(m + n)
 - Space Complexity: O(1)
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/intersection-of-two-linked-lists/discuss/307029)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

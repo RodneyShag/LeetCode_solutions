@@ -34,6 +34,7 @@ Stack 1 = [5, 4]  // maxFreq = 1
 Stack 2 = []
 
 ```
+
 ### Solution
 
 ```java
@@ -65,3 +66,8 @@ class FreqStack {
 
 -  Time Complexity: O(1) for push and pop
 - Space Complexity: O(1) for storage of each element. Can alternatively describe it as O(n) for storage of n elements.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/maximum-frequency-stack/discuss/401504)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

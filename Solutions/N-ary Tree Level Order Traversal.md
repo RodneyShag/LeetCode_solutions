@@ -41,3 +41,8 @@ class Solution {
 
 -  Time Complexity: O(n)
 - Space Complexity: O(n)
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/n-ary-tree-level-order-traversal/discuss/312433)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

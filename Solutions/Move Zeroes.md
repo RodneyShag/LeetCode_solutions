@@ -30,3 +30,8 @@ class Solution {
 
 -  Time Complexity: O(n)
 - Space Complexity: O(1) since we overwrite the array that was provided to us
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/move-zeroes/discuss/396373)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

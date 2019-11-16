@@ -10,3 +10,8 @@ WHERE E.DepartmentId = D.Id AND
 ### Notes
 
 The part after the `AND` finds the `MAX` salary for the `Department` we're interested in.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/department-highest-salary/discuss/393900)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

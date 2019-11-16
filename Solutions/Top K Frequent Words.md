@@ -95,3 +95,8 @@ In the `TrieNode` class, public variables are used for simplicity.
 
 -  Time Complexity: O(n)
 - Space Complexity: O(n)
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/top-k-frequent-words/discuss/304461)
+- [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -121,3 +121,8 @@ The linux Kernel uses Heapsort.
 - Merge sort parallelizes well and can achieve close to linear speedup with a trivial implementation; heapsort is not an obvious candidate for a parallel algorithm.
 - Merge sort [parallelizes](https://en.wikipedia.org/wiki/Parallel_algorithm) well and can achieve close to [linear speedup](https://en.wikipedia.org/wiki/Speedup) with a trivial implementation; heapsort is not an obvious candidate for a parallel algorithm.
 - Merge sort is used in [external sorting](https://en.wikipedia.org/wiki/External_sorting); heapsort is not. Locality of reference is the issue.
+
+### Links
+
+- [Discuss on LeetCode](https://leetcode.com/problems/sort-an-array/discuss/357592)
+- [github.com/RodneyShag](https://github.com/RodneyShag)
