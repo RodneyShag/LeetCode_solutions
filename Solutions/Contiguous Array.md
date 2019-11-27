@@ -41,7 +41,7 @@ class Solution {
             return 0;
         }
         int[] deltas = findDeltas(array);
-        Map<Integer, Integer> map = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap();
         map.put(0, -1); // for testcases such as [1, 0], [1, 0, 0]
         int maxLength = 0;
         for (int i = 0; i < array.length; i++) {

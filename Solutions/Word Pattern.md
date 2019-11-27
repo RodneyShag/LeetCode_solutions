@@ -19,8 +19,8 @@ class Solution {
             return false;
         }
 
-        Map<Character, String> map1 = new HashMap<>();
-        Map<String, Character> map2 = new HashMap<>();
+        Map<Character, String> map1 = new HashMap();
+        Map<String, Character> map2 = new HashMap();
 
         for (int i = 0; i < pattern.length(); i++) {
             char ch = pattern.charAt(i);

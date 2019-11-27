@@ -17,7 +17,7 @@ class Solution {
             return 0;
         }
         int count = 0;
-        Map<Integer, Integer> map = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap();
         for (int i = 0; i < A.length; i++) {
             for (int j = 0; j < B.length; j++) {
                 map.merge(A[i] + B[j], 1, Integer::sum);

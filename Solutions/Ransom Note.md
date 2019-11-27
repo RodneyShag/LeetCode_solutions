@@ -21,7 +21,7 @@ class Solution {
     }
 
     private Map<Character, Integer> getLetters(String magazine) {
-        Map<Character, Integer> letters = new HashMap<>();
+        Map<Character, Integer> letters = new HashMap();
         for (int i = 0; i < magazine.length(); i++) {
             letters.merge(magazine.charAt(i), 1, Integer::sum);
         }

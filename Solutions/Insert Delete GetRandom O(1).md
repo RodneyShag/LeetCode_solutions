@@ -14,8 +14,8 @@
 ```java
 class RandomizedSet {
     Random rand = new Random();
-    List<Integer> list = new ArrayList<>();
-    Map<Integer, Integer> valToInd = new HashMap<>();
+    List<Integer> list = new ArrayList();
+    Map<Integer, Integer> valToInd = new HashMap();
 
     public boolean insert(int num) {
         if (valToInd.containsKey(num)) {

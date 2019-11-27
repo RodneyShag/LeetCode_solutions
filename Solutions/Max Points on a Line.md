@@ -22,7 +22,7 @@ class Solution {
         int solution = 0;
         for (int i = 0; i < points.length - 1; i++) {
             // find max number of points that lie on same line, starting at points[i]
-            Map<String, Integer> map = new HashMap<>();
+            Map<String, Integer> map = new HashMap();
             int samePoint = 0;
             for (int j = i + 1; j < points.length; j++) {
                 int x = points[i][0] - points[j][0];

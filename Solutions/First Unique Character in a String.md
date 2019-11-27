@@ -7,7 +7,7 @@ class Solution {
             return -1;
         }
 
-        HashMap<Character, Integer> counts = new HashMap<>();
+        HashMap<Character, Integer> counts = new HashMap();
 
         // Save counts of characters
         for (int i = 0; i < s.length(); i++) {

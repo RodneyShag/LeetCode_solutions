@@ -26,9 +26,9 @@ class Solution {
 
     public List<String> letterCombinations(String digits) {
         if (digits == null || digits.length() == 0) {
-            return new ArrayList<>();
+            return new ArrayList();
         }
-        List<String> solutions = new ArrayList<>();
+        List<String> solutions = new ArrayList();
         makeStrings(digits, 0, solutions, new StringBuffer());
         return solutions;
     }

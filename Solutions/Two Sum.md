@@ -12,7 +12,7 @@ Implementation Detail: First check the `HashMap` for the complement before putti
 ```java
 class Solution {    
     public int[] twoSum(int[] array, int target) throws IllegalArgumentException {
-        Map<Integer, Integer> map = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap();
         for (int i = 0; i < array.length; i++) {
             int complement = target - array[i];
             if (map.containsKey(complement)) {

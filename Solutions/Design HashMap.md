@@ -32,7 +32,7 @@ class MyHashMap {
 
     private void initializeLists(ArrayList<LinkedList<Cell>> lists) {
         for (int i = 0; i < numBuckets; i++) {
-            lists.add(new LinkedList<>());
+            lists.add(new LinkedList());
         }
     }
 

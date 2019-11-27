@@ -19,7 +19,7 @@ class Node {
     public Node(int data) {
         this.data = data;
         status = Visited.NEW;
-        neighbors = new ArrayList<>();
+        neighbors = new ArrayList();
     }
 
     public void addDirectedNeighbor(Node neighbor) {
@@ -30,8 +30,8 @@ class Node {
 
 ```java
 class Graph {
-    List<Node> nodes = new ArrayList<>();
-    Map<Integer, Node> map = new HashMap<>();
+    List<Node> nodes = new ArrayList();
+    Map<Integer, Node> map = new HashMap();
 
     public void addDirectedEdge(Integer s1, Integer s2) {
         Node source = map.get(s1);
@@ -71,7 +71,7 @@ class Solution {
             source.addDirectedNeighbor(node);
         }
 
-        ArrayDeque<Node> result = new ArrayDeque<>();
+        ArrayDeque<Node> result = new ArrayDeque();
         try {
             topoSortDFS(source, result);
         } catch (Exception e) {

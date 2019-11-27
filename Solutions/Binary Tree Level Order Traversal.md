@@ -17,10 +17,10 @@ class TreeNode {
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
         if (root == null) {
-            return new ArrayList<>();
+            return new ArrayList();
         }
-        List<List<Integer>> lists = new ArrayList<>();
-        Deque<TreeNode> deque = new ArrayDeque<>(); // use deque as a queue
+        List<List<Integer>> lists = new ArrayList();
+        Deque<TreeNode> deque = new ArrayDeque(); // use deque as a queue
         deque.add(root);
         while (!deque.isEmpty()) {
             int numNodesInLevel = deque.size();

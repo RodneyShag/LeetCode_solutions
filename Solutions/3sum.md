@@ -12,7 +12,7 @@ We assume integer overflow is not possible when summing any 3 numbers in `int[] 
 ```java
 class Solution {
     public List<List<Integer>> threeSum(int[] num) {
-        List<List<Integer>> result = new ArrayList<>();
+        List<List<Integer>> result = new ArrayList();
         if (num == null || num.length < 3) {
             return result; // no solution
         }

@@ -8,7 +8,7 @@
 ```java
 class Solution {
     public List<String> generateParenthesis(int n) {
-        List<String> solutions = new ArrayList<>();
+        List<String> solutions = new ArrayList();
         addParenthesis(new char[n * 2], 0, n, n, solutions);
         return solutions;
     }

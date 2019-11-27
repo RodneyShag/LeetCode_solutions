@@ -25,8 +25,8 @@ class Solution {
             return 1;
         }
 
-        Deque<String> deque = new ArrayDeque<>(); // use as queue
-        Set<String> visited = new HashSet<>();
+        Deque<String> deque = new ArrayDeque(); // use as queue
+        Set<String> visited = new HashSet();
 
         deque.add(beginWord);
         visited.add(beginWord);
@@ -53,7 +53,7 @@ class Solution {
 
     // Generates all possible neighbors of given String
     private Set<String> getNeighbors(String str, Set<String> words) {
-        Set<String> validWords = new HashSet<>();
+        Set<String> validWords = new HashSet();
         for (int i = 0; i < str.length(); i++) {
             char[] neighbor = str.toCharArray();
             for (char ch = 'a'; ch <= 'z'; ch++) {
@@ -121,11 +121,11 @@ class Solution {
             return 1;
         }
 
-        Deque<String> deque1 = new ArrayDeque<>(); // use as queue
-        Deque<String> deque2 = new ArrayDeque<>(); // use as queue
+        Deque<String> deque1 = new ArrayDeque(); // use as queue
+        Deque<String> deque2 = new ArrayDeque(); // use as queue
 
-        Set<String> visited1 = new HashSet<>();
-        Set<String> visited2 = new HashSet<>();
+        Set<String> visited1 = new HashSet();
+        Set<String> visited2 = new HashSet();
 
         deque1.add(beginWord);
         deque2.add(endWord);
@@ -170,7 +170,7 @@ class Solution {
 
     // Generates all possible neighbors of given String
     private Set<String> getNeighbors(String str, Set<String> words) {
-        Set<String> validWords = new HashSet<>();
+        Set<String> validWords = new HashSet();
         for (int i = 0; i < str.length(); i++) {
             char[] neighbor = str.toCharArray();
             for (char ch = 'a'; ch <= 'z'; ch++) {

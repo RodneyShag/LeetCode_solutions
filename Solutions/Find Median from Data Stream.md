@@ -12,7 +12,7 @@
 ```java
 class MedianFinder {
     private Queue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
-    private Queue<Integer> minHeap = new PriorityQueue<>();
+    private Queue<Integer> minHeap = new PriorityQueue();
 
     public void addNum(int num) {
         if (maxHeap.size() == minHeap.size()) {

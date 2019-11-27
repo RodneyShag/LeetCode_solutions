@@ -13,7 +13,7 @@ class Solution {
             return Collections.<Integer>emptyList();
         }
 
-        Map<Integer, Integer> map = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap();
         for (int num : nums) {
             map.merge(num, 1, Integer::sum);
         }
@@ -29,7 +29,7 @@ class Solution {
             bucket.add(num);
         }
 
-        List<Integer> solution = new ArrayList<>();
+        List<Integer> solution = new ArrayList();
         for (int i = buckets.size() - 1; i >= 0 && solution.size() < k; i--) {
             List<Integer> bucket = buckets.get(i);
             solution.addAll(bucket);

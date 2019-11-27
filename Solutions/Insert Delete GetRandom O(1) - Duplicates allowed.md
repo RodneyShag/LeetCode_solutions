@@ -9,13 +9,13 @@
 ```java
 class RandomizedCollection {
     Random rand = new Random();
-    List<Integer> list = new ArrayList<>();
-    Map<Integer, LinkedHashSet<Integer>> valToIndices = new HashMap<>();
+    List<Integer> list = new ArrayList();
+    Map<Integer, LinkedHashSet<Integer>> valToIndices = new HashMap();
 
     public boolean insert(int num) {
         // update Map
         if (!valToIndices.containsKey(num)) {
-            valToIndices.put(num, new LinkedHashSet<>());
+            valToIndices.put(num, new LinkedHashSet());
         }
         valToIndices.get(num).add(list.size());
 

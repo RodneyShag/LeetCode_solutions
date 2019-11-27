@@ -9,8 +9,8 @@ Since problem statement isn't clear on what to do when our stack is empty, we ha
 
 ```java
 class MinStack {
-    Stack<Integer> stack = new Stack<>();
-    Stack<Integer> minStack = new Stack<>(); // keeps track of minimums
+    Stack<Integer> stack = new Stack();
+    Stack<Integer> minStack = new Stack(); // keeps track of minimums
 
     // Always push onto stack. If it's a minimum, also push it onto minStack
     public void push(int x) {

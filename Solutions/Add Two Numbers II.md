@@ -26,8 +26,8 @@ class Solution {
             return n;
         }
 
-        Deque<Integer> deque1 = new ArrayDeque<>(); // use as a stack
-        Deque<Integer> deque2 = new ArrayDeque<>(); // use as a stack
+        Deque<Integer> deque1 = new ArrayDeque(); // use as a stack
+        Deque<Integer> deque2 = new ArrayDeque(); // use as a stack
 
         while (m != null) {
             deque1.push(m.val);

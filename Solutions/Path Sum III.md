@@ -22,7 +22,7 @@ public class TreeNode {
 ```java
 class Solution {
     public int pathSum(TreeNode node, int target) {
-        Map<Integer, Integer> map = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap();
         map.put(0, 1);
         return pathSum(node, target, 0, map);
     }

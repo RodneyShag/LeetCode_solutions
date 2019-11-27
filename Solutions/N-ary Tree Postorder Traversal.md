@@ -12,7 +12,7 @@ public class Node {
 ```java
 class Solution {
     public List<Integer> postorder(Node root) {
-        List<Integer> list = new ArrayList<>();
+        List<Integer> list = new ArrayList();
         postorder(root, list);
         return list;
     }

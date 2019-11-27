@@ -13,10 +13,10 @@
 class Solution {
     public List<List<String>> groupAnagrams(String[] array) {
         if (array == null || array.length == 0) {
-            return new ArrayList<>();
+            return new ArrayList();
         }
 
-        Map<String, List<String>> map = new HashMap<>();
+        Map<String, List<String>> map = new HashMap();
 
         for (String str : array) {
             String key = sortChars(str);
@@ -55,10 +55,10 @@ class Solution {
 class Solution {
     public List<List<String>> groupAnagrams(String[] array) {
         if (array == null || array.length == 0) {
-            return new ArrayList<>();
+            return new ArrayList();
         }
 
-        Map<Map<Character, Integer>, List<String>> map = new HashMap<>();
+        Map<Map<Character, Integer>, List<String>> map = new HashMap();
 
         for (String str : array) {
             Map<Character, Integer> key = createKey(str);
@@ -71,7 +71,7 @@ class Solution {
     }
 
     private Map<Character, Integer> createKey(String str) {
-        Map<Character, Integer> key = new HashMap<>();
+        Map<Character, Integer> key = new HashMap();
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
             key.merge(ch, 1, Integer::sum);

@@ -11,11 +11,11 @@
 class Solution {
     public List<List<Integer>> subsetsWithDup(int[] array) {
         if (array == null || array.length == 0) {
-            return new ArrayList<>();
+            return new ArrayList();
         }
         Arrays.sort(array);
-        Set<List<Integer>> solutions = new HashSet<>();
-        makeSubsets(array, 0, solutions, new ArrayList<>());
+        Set<List<Integer>> solutions = new HashSet();
+        makeSubsets(array, 0, solutions, new ArrayList());
         return new ArrayList<>(solutions);
     }
 

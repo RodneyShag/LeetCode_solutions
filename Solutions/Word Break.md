@@ -21,7 +21,7 @@ You should clarify with your interviewer if words can be reused.
 class Solution {
     public boolean wordBreak(String str, List<String> wordDict) {
         Set<String> dict = new HashSet<>(wordDict);
-        Map<Integer, Boolean> cache = new HashMap<>();
+        Map<Integer, Boolean> cache = new HashMap();
         cache.put(0, true); // base case
         return isValid(str, str.length(), dict, cache);
     }

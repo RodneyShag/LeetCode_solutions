@@ -84,7 +84,7 @@ class LRUCache {
 
     public LRUCache(int capacity) {
         this.capacity = (capacity < 1) ? 1 : capacity;
-        map = new HashMap<>();
+        map = new HashMap();
         dll = new DoublyLinkedList();
     }
 

@@ -16,7 +16,7 @@ class Solution {
         if (A == null || A.length == 0 || k < 0 || k > A.length) {
             return A;
         }
-        Deque<Integer> deque = new ArrayDeque<>();
+        Deque<Integer> deque = new ArrayDeque();
         int[] result = new int[A.length - k + 1];
         for (int i = 0; i < A.length; i++) {
             // discard element if it's no longer in the sliding window

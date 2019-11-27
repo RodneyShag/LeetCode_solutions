@@ -16,7 +16,7 @@ class TreeNode {
 ```java
 class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {
-        List<Integer> list = new ArrayList<>();
+        List<Integer> list = new ArrayList();
         postorderTraversal(root, list);
         return list;
     }

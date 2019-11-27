@@ -3,7 +3,7 @@
 ```java
 class Solution {
     public List<String> fizzBuzz(int n) {
-        List<String> list = new ArrayList<>();
+        List<String> list = new ArrayList();
 
         for (int num = 1; num <= n; num++) {
             boolean divisibleBy3 = (num % 3 == 0);

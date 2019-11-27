@@ -13,7 +13,7 @@ class Solution {
             return Collections.<String>emptyList();
         }
 
-        Map<String, Integer> map = new HashMap<>();
+        Map<String, Integer> map = new HashMap();
         for (String word : words) {
             map.merge(word, 1, Integer::sum);
         }
@@ -29,7 +29,7 @@ class Solution {
             trie.add(word);
         }
 
-        List<String> solution = new ArrayList<>();
+        List<String> solution = new ArrayList();
         for (int i = buckets.length - 1; i >= 0 && solution.size() < k; i--) {
             Trie trie = buckets[i];
             solution.addAll(trie.getWords());
@@ -41,7 +41,7 @@ class Solution {
 
 ```java
 class TrieNode {
-    public Map<Character, TrieNode> children = new HashMap<>();
+    public Map<Character, TrieNode> children = new HashMap();
     public String word = null;
 
     public void putChildIfAbsent(char ch) {
@@ -69,7 +69,7 @@ class Trie {
     }
 
     public List<String> getWords() {
-        List<String> list = new ArrayList<>();
+        List<String> list = new ArrayList();
         getWords(root, list);
         return list;
     }

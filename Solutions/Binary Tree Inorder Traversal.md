@@ -16,7 +16,7 @@ class TreeNode {
 ```java
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
-        List<Integer> list = new ArrayList<>();
+        List<Integer> list = new ArrayList();
         inorderTraversal(root, list);
         return list;
     }

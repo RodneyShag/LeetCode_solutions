@@ -8,8 +8,8 @@
 
 ```java
 class MyQueue {
-    private Stack<Integer> stack1 = new Stack<>();
-    private Stack<Integer> stack2 = new Stack<>();
+    private Stack<Integer> stack1 = new Stack();
+    private Stack<Integer> stack2 = new Stack();
 
     public void push(int x) {
         stack1.push(x);
