@@ -13,10 +13,10 @@ public class Node {
 class Solution {
     public List<List<Integer>> levelOrder(Node root) {
         if (root == null) {
-            return new ArrayList<>();
+            return new ArrayList();
         }
-        List<List<Integer>> lists = new ArrayList<>();
-        Deque<Node> deque = new ArrayDeque<>(); // use deque as a queue
+        List<List<Integer>> lists = new ArrayList();
+        Deque<Node> deque = new ArrayDeque(); // use deque as a queue
         deque.add(root);
         while (!deque.isEmpty()) {
             int numNodesInLevel = deque.size();
@@ -25,9 +25,7 @@ class Solution {
                 Node n = deque.remove();
                 level.add(n.val);
                 for (Node child : n.children) {
-                    if (child != null) {
-                        deque.add(child);
-                    }
+                    deque.add(child);
                 }
             }
             lists.add(level);
