@@ -29,6 +29,10 @@ class Solution {
 - Time Complexity: O(n)
 - Space Complexity: O(n)
 
+### Similar Problems
+
+[Path Sum III](https://leetcode.com/problems/path-sum-iii)
+
 ### Links
 
 - [Discuss on LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/discuss/304459)
