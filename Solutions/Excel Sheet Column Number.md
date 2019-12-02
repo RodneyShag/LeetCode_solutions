@@ -26,7 +26,7 @@ class Solution {
 -  Time Complexity: O(n)
 - Space Complexity: O(1)
 
-# Links
+### Links
 
 - [Discuss on LeetCode](https://leetcode.com/problems/excel-sheet-column-number/discuss/442118)
 - [github.com/RodneyShag](https://github.com/RodneyShag)
