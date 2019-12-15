@@ -2,6 +2,8 @@
 
 ### Algorithm
 
+This is a dynamic programming problem.
+
 - Let `buy[i]` be max profit until index `i` in `[0, i]` where we did a buy and still own the stock.
 - Let `sell[i]` be max profit until index `i` in `[0, i]` where we don't own any stock.
 
