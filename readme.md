@@ -2,7 +2,7 @@
   <a href="https://leetcode.com/rodneyshag">
     <img height=80 src="https://leetcode.com/static/webpack_bundles/images/logo-dark.e99485d9b.svg">
   </a>
-  <br>175 efficient solutions to LeetCode problems
+  <br>177 efficient solutions to LeetCode problems
   <br><br>
 </p>
 
@@ -41,6 +41,7 @@
 |  62  | [Unique Paths](https://leetcode.com/problems/unique-paths)                                                                                       | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Unique%20Paths.md)                                                            |   Medium   |
 |  63  | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii)                                                                                 | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Unique%20Paths%20II.md)                                                       |   Medium   |
 |  66  | [Plus One](https://leetcode.com/problems/plus-one)                                                                                               | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Plus%20One.md)                                                                |    Easy    |
+|  69  | [Sqrt(x)](https://leetcode.com/problems/sqrtx)                                                                                                   | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Sqrt(x).md)                                                                   |    Easy    |
 |  70  | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs)                                                                                 | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Climbing%20Stairs.md)                                                         |    Easy    |
 |  73  | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes)                                                                             | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Set%20Matrix%20Zeroes.md)                                                     |   Medium   |
 |  78  | [Subsets](https://leetcode.com/problems/subsets)                                                                                                 | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Subsets.md)                                                                   |   Medium   |
@@ -98,6 +99,7 @@
 |  200 | [Number of Islands](https://leetcode.com/problems/number-of-islands)                                                                             | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Number%20of%20Islands.md)                                                     |   Medium   |
 |  202 | [Happy Number](https://leetcode.com/problems/happy-number)                                                                                       | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Happy%20Number.md)                                                            |    Easy    |
 |  203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements)                                                         | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Remove%20Linked%20List%20Elements.md)                                         |    Easy    |
+|  204 | [Count Primes](https://leetcode.com/problems/count-primes)                                                                                       | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Count%20Primes.md)                                                            |    Easy    |
 |  206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)                                                                         | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Reverse%20Linked%20List.md)                                                   |    Easy    |
 |  207 | [Course Schedule](https://leetcode.com/problems/course-schedule)                                                                                 | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Course%20Schedule.md)                                                         |   Medium   |
 |  208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree)                                                         | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Implement%20Trie%20(Prefix%20Tree).md)                                        |   Medium   |
