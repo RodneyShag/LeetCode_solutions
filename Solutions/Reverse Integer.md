@@ -21,6 +21,26 @@ class Solution {
 }
 ```
 
+### Examples
+
+Input: 19
+
+```
+    Initial: rev =  0, x = 19
+Iteration 1: rev =  9, x =  1
+Iteration 2: rev = 91, x =  0
+```
+
+Input: -19
+
+```
+    Initial: rev =   0, x = -19
+Iteration 1: rev =  -9, x =  -1
+Iteration 2: rev = -91, x =   0
+```
+
+The tricky part for negative numbers is that `-19 % 10 = -9`
+
 ### Time/Space Complexity
 
 -  Time Complexity: O(1)

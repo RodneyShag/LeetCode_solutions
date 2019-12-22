@@ -7,7 +7,7 @@ class Solution {
         int hi = sortedArray.length - 1;
 
         while (lo <= hi) {
-            int mid = (lo + hi) / 2;
+            int mid = lo + (hi - lo) / 2;
             if (sortedArray[mid] > value) {
                 hi = mid - 1;
             } else if (sortedArray[mid] < value) {
@@ -20,6 +20,10 @@ class Solution {
     }
 }
 ```
+
+### Implementation Details
+
+Instead of calculating the middle value as `mid = (lo + hi) / 2`, do `mid = lo + (hi - lo) / 2` to avoid integer overflow
 
 ### Time/Space Complexity
 
