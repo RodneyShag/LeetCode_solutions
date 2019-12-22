@@ -40,5 +40,5 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode]https://leetcode.com/problems/ugly-number/discuss/457835)
+- [Discuss on LeetCode](https://leetcode.com/problems/ugly-number/discuss/457835)
 - [github.com/RodneyShag](https://github.com/RodneyShag)
