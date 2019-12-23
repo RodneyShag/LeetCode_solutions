@@ -20,8 +20,8 @@ class Solution {
         Comparator<Integer> comparator = (a, b) -> nums[a] != nums[b]
                                                  ? Integer.compare(nums[a], nums[b])
                                                  : a - b;
-        TreeSet<Integer> smalls = new TreeSet<>(comparator);
-        TreeSet<Integer> bigs   = new TreeSet<>(comparator);
+        TreeSet<Integer> smalls = new TreeSet(comparator);
+        TreeSet<Integer> bigs   = new TreeSet(comparator);
 
         double[] result = new double[nums.length - k + 1];
 

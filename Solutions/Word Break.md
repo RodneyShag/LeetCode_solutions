@@ -20,7 +20,7 @@ You should clarify with your interviewer if words can be reused.
 ```java
 class Solution {
     public boolean wordBreak(String str, List<String> wordDict) {
-        Set<String> dict = new HashSet<>(wordDict);
+        Set<String> dict = new HashSet(wordDict);
         Map<Integer, Boolean> cache = new HashMap();
         cache.put(0, true); // base case
         return isValid(str, str.length(), dict, cache);
@@ -62,7 +62,7 @@ class Solution {
 ```java
 class Solution {
     public boolean wordBreak(String str, List<String> wordDict) {
-        Set<String> dict = new HashSet<>(wordDict);
+        Set<String> dict = new HashSet(wordDict);
         boolean[] dp = new boolean[str.length() + 1];
         dp[0] = true; // base case
         for (int j = 1; j < dp.length; j++) {

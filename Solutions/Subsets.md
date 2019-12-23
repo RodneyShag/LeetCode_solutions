@@ -20,7 +20,7 @@ class Solution {
 
     private void makeSubsets(int[] array, int i, List<List<Integer>> solutions, List<Integer> list) {
         if (i == array.length) {
-            solutions.add(new ArrayList<>(list));
+            solutions.add(new ArrayList(list));
             return;
         }
 

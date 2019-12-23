@@ -16,12 +16,12 @@ class Solution {
         Arrays.sort(array);
         Set<List<Integer>> solutions = new HashSet();
         makeSubsets(array, 0, solutions, new ArrayList());
-        return new ArrayList<>(solutions);
+        return new ArrayList(solutions);
     }
 
     private void makeSubsets(int[] array, int i, Set<List<Integer>> solutions, List<Integer> list) {
         if (i == array.length) {
-            solutions.add(new ArrayList<>(list));
+            solutions.add(new ArrayList(list));
             return;
         }
 

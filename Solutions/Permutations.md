@@ -17,7 +17,7 @@ class Solution {
 
     private void permute(int[] array, int index, boolean[] used, List<List<Integer>> solutions, List<Integer> list) {
         if (index == array.length) {
-            solutions.add(new ArrayList<>(list));
+            solutions.add(new ArrayList(list));
             return;
         }
         for (int i = 0; i < array.length; i++) {

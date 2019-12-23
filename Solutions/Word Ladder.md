@@ -17,7 +17,7 @@ class Solution {
         if (beginWord == null || endWord == null || wordList == null || beginWord.length() != endWord.length()) {
             return 0;
         }
-        Set<String> words = new HashSet<>(wordList);
+        Set<String> words = new HashSet(wordList);
         if (!words.contains(endWord)) {
             return 0;
         }
@@ -113,7 +113,7 @@ class Solution {
         if (beginWord == null || endWord == null || beginWord.length() != endWord.length()) {
             return 0;
         }
-        Set<String> words = new HashSet<>(wordList);
+        Set<String> words = new HashSet(wordList);
         if (!words.contains(endWord)) {
             return 0;
         }

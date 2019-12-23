@@ -18,7 +18,7 @@ class Solution {
             map.merge(num, 1, Integer::sum);
         }
 
-        List<List<Integer>> buckets = new ArrayList<>(nums.length + 1); // wont use 0th bucket
+        List<List<Integer>> buckets = new ArrayList(nums.length + 1); // wont use 0th bucket
         for (int i = 0; i < nums.length + 1; i++) {
             buckets.add(new ArrayList<Integer>());
         }

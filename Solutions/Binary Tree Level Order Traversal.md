@@ -24,7 +24,7 @@ class Solution {
         deque.add(root);
         while (!deque.isEmpty()) {
             int numNodesInLevel = deque.size();
-            List<Integer> level = new ArrayList<>(numNodesInLevel);
+            List<Integer> level = new ArrayList(numNodesInLevel);
             for (int i = 0; i < numNodesInLevel; i++) {
                 TreeNode n = deque.remove();
                 level.add(n.val);

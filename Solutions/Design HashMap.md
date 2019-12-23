@@ -22,7 +22,7 @@ class Cell { // public variables for simplicity.
 ```java
 class MyHashMap {
     private int numBuckets = 100;
-    private ArrayList<LinkedList<Cell>> lists = new ArrayList<>(numBuckets);
+    private ArrayList<LinkedList<Cell>> lists = new ArrayList(numBuckets);
     private final double LOAD_FACTOR = 0.7;
     private int numItems = 0;
 
@@ -95,7 +95,7 @@ class MyHashMap {
     private void rehash() {
         ArrayList<LinkedList<Cell>> temp = lists;
         numBuckets *= 2;
-        lists = new ArrayList<>(numBuckets);
+        lists = new ArrayList(numBuckets);
         initializeLists(lists);
         numItems = 0;
         for (LinkedList<Cell> list : temp) {
