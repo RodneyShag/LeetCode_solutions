@@ -1,7 +1,6 @@
 ### Algorithm
 
  There is just 1 place in the array where the versions go from "good" to "bad". We can use a modified version of [binary search](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Binary%20Search.md) to find this location.
-[LeetCode solutions](https://github.com/RodneyShag/LeetCode_solutions)
 
 ### Provided Code
 

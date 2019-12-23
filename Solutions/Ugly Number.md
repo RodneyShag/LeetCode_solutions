@@ -35,6 +35,8 @@ class Solution {
 
 ### Time/Space Complexity
 
+Max size of an `int` in Java is a constant 32 bits, and we usually don't take number of bits into consideration for complexity analysis.
+
 -  Time Complexity: O(1)
 - Space Complexity: O(1)
 
