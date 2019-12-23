@@ -5,9 +5,6 @@ class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
-    TreeNode(int x) {
-        val = x;
-    }
 }
 ```
 
@@ -25,7 +22,7 @@ class Solution {
         while (!deque.isEmpty()) {
             int numNodesInLevel = deque.size();
             List<Integer> level = new ArrayList(numNodesInLevel);
-            for (int i = 0; i < numNodesInLevel; i++) {
+            while (numNodesInLevel-- > 0) {
                 TreeNode n = deque.remove();
                 level.add(n.val);
                 if (n.left != null) {

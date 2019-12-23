@@ -27,7 +27,7 @@ class Solution {
 
 ### Time/Space Complexity
 
-- Time Complexity: O(n) since we must touch all nodes
+-  Time Complexity: O(n) since we must touch all nodes
 - Space Complexity: O(n) due to recursion (on a tree that may not be balanced)
 
 ### Links

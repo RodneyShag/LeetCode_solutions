@@ -21,7 +21,7 @@ class Solution {
         while (!deque.isEmpty()) {
             int numNodesInLevel = deque.size();
             List<Integer> level = new ArrayList(numNodesInLevel);
-            for (int i = 0; i < numNodesInLevel; i++) {
+            while (numNodesInLevel-- > 0) {
                 Node n = deque.remove();
                 level.add(n.val);
                 for (Node child : n.children) {

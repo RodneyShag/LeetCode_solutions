@@ -18,12 +18,8 @@ Notice this is __not a binary search tree__. If it was, it would be equivalent t
 
 ```java
 class TreeNode {
-    int val;
     TreeNode left;
     TreeNode right;
-    TreeNode(int x) {
-        val = x;
-    }
 }
 ```
 

@@ -13,12 +13,8 @@ We visit every `TreeNode` recursively and calculate (1), saving the largest valu
 
 ```java
 class TreeNode {
-    int val;
     TreeNode left;
     TreeNode right;
-    TreeNode(int x) {
-        val = x;
-    }
 }
 ```
 
