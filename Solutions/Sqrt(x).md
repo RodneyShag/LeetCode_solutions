@@ -1,3 +1,5 @@
+# Solution 1 - Binary Search
+
 ### Assumptions
 
 We assume input `x` is non-negative (0 or more) as stated in the problem.
@@ -46,7 +48,35 @@ class Solution {
 -  Time Complexity: O(log n)
 - Space Complexity: O(1)
 
-### Links
+
+# Solution 2 - Newton's Method
+
+_Newton's Method_ is also an O(log n) solution, but is faster than binary search since it makes better guesses for the square root in each iteration of the `while` loop.
+
+### Code
+
+```java
+class Solution {
+    public int mySqrt(int x) {
+        if (x == 0) {
+            return 0;
+        }
+        long r = x; // use `long` so r*r is calculated as a `long`
+        while (r*r > x) {
+            r = (r + x/r) / 2;
+        }    	
+        return (int) r;
+    }
+}
+```
+
+### Time/Space Complexity
+
+-  Time Complexity: O(log n)
+- Space Complexity: O(1)
+
+
+# Links
 
 - [Discuss on LeetCode](https://leetcode.com/problems/sqrtx/discuss/453059)
 - [github.com/RodneyShag](https://github.com/RodneyShag)
