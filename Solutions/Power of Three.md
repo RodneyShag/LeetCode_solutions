@@ -27,8 +27,11 @@ This algorithm works for any "Power of X" question for X = 2, 3, 4,...
 
 ### Time/Space Complexity
 
--  Time Complexity: O(1)
+-  Time Complexity
+  - if number of bits in `int n` is capped at 32: `O(1)`
+  - if number of bits is allowed to grow: `O(log n)`
 - Space Complexity: O(1)
+
 
 # Solution 2 - Base Conversion
 
@@ -53,8 +56,10 @@ This algorithm works for any "Power of X" question for X = 2, 3, 4,...
 
 ### Time/Space Complexity
 
-- Time Complexity: O(1)
-- Space Complexity: O(1)
+- Time Complexity
+  - if number of bits in `int n` is capped at 32: `O(1)`
+  - if number of bits is allowed to grow: `O(log n)` since base conversion is implemented as repeated division
+- Space Complexity: `O(1)`
 
 
 # Solution 3 - Integer Limitations
@@ -80,8 +85,10 @@ class Solution {
 
 ### Time/Space Complexity
 
-- Time Complexity: O(1)
-- Space Complexity: O(1)
+- Time Complexity
+  - if number of bits in `int n` is capped at 32: `O(1)`
+  - if number of bits is allowed to grow: `O(log n)` due to the % operator
+- Space Complexity: `O(1)`
 
 
 # Links

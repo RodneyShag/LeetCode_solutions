@@ -6,11 +6,7 @@ Iterative solution using 3 pointers.
 
 ```java
 class ListNode {
-    int val;
     ListNode next;
-    ListNode(int x) {
-      val = x;
-    }
 }
 ```
 

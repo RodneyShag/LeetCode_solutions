@@ -5,6 +5,14 @@
 1. Walk that many steps and remove the node.
 1. Return the head of the list.
 
+### Provided Code
+
+```java
+class ListNode {
+    ListNode next;
+}
+```
+
 ### Solution
 
 ```java

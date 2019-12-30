@@ -2,9 +2,11 @@
 
 Use a "regular expression" (regex) by using [.matches()](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#matches-java.lang.String-).
 
-- `[]` around a 'set' of characters is a match if any of the characters match
+- `[]` around a 'set' of characters is a match if any of the characters match.
+    - `[A-Z]` matches any character from A to Z.
 - `*` means 0 or more of whatever precedes it
 - `|` means "or"
+- `.` matches any character
 
 ### Solution
 

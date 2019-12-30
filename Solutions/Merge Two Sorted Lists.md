@@ -4,7 +4,9 @@
 class ListNode {
     int val;
     ListNode next;
-    ListNode(int x) { val = x; }
+    ListNode(int x) {
+        val = x;
+    }
 }
 ```
 

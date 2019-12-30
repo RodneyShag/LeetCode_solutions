@@ -26,7 +26,7 @@ public class Solution {
 
 ### Time/Space Complexity
 
--  Time Complexity: O(1)
+-  Time Complexity: O(1) assuming `int n` is always capped at 32 bits
 - Space Complexity: O(1)
 
 ### Links

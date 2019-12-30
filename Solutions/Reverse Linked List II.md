@@ -24,11 +24,7 @@ We want to reverse 2->3->4 to get
 
 ```java
 class ListNode {
-    int val;
     ListNode next;
-    ListNode(int x) {
-        val = x;
-    }
 }
 ```
 

@@ -28,7 +28,9 @@ This algorithm works for any "Power of X" question for X = 2, 3, 4,...
 
 ### Time/Space Complexity
 
-- Time Complexity: O(1)
+-  Time Complexity
+  - if number of bits in `int n` is capped at 32: `O(1)`
+  - if number of bits is allowed to grow: `O(log n)`
 - Space Complexity: O(1)
 
 
@@ -43,7 +45,7 @@ This algorithm works for any "Power of X" question for X = 2, 3, 4,...
 
 ```java
 class Solution {
-    public boolean isPowerOfThree(int n) {
+    public boolean isPowerOfFour(int n) {
         return Integer.toString(n, 4).matches("10*");
     }
 }
@@ -55,8 +57,11 @@ This algorithm works for any "Power of X" question for X = 2, 3, 4,...
 
 ### Time/Space Complexity
 
--  Time Complexity: O(1)
-- Space Complexity: O(1)
+- Time Complexity
+  - if number of bits in `int n` is capped at 32: `O(1)`
+  - if number of bits is allowed to grow: `O(log n)` since base conversion is implemented as repeated division
+- Space Complexity: `O(1)`
+
 
 # Links
 
