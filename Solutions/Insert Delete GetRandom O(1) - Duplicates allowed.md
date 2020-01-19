@@ -2,7 +2,8 @@
 
 - This is the same problem as [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1), but with Duplicates allowed.
 - Use [this solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Insert%20Delete%20GetRandom%20O%281%29.md) and replace the `Map<Integer, Integer>` with a `Map<Integer, LinkedHashSet<Integer>>`, where the `LinkedHashSet` will represent all the indices of a given number.
-    - We use a `LinkedHashSet` instead of a `HashSet` since .next() on a `LinkedHashSet` will be O(1) time. Depending on how Java implements `HashSet`, .next() could be O(n) if we have to iterate through a lot of null entries to reach the 1 non-null entry.
+    - We use a `LinkedHashSet` instead of a `HashSet` since `.next()` on a `LinkedHashSet` will be O(1) time.
+        - "Iteration over a `LinkedHashSet` requires time proportional to the _size of the set_, regardless of its capacity. Iteration over a `HashSet` is likely to be more expensive, requiring time proportional to its _capacity_" ([Reference](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashSet.html)).
 
 ### Solution
 

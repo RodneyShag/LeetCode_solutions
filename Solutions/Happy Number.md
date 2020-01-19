@@ -40,10 +40,21 @@ class Solution {
 }
 ```
 
-### Time/Space Complexity
+### Time Complexity
 
--  Time Complexity: O(1)
-- Space Complexity: O(1)
+#### If number of bits in `int n` is capped at 32 by Java
+
+`O(1)`
+
+#### If number of bits in `int n` is allowed to grow
+
+- `digitSquareSum()` will be `O(log n)`
+- When (or if) `while (fast != 1 && slow != fast)` terminates as `n` increases needs a mathematical proof that won't be necessary in an interview.
+- This gives us `O(log n) < time complexity < ???`
+
+### Space Complexity
+
+`O(1)`
 
 ### Links
 

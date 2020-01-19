@@ -28,12 +28,12 @@ class Solution {
             }
             int digit = sum % 2;
             carry = sum / 2;
-            sb.insert(0, digit);
+            sb.append(digit);
             i--;
             j--;
         }
 
-        return sb.toString();
+        return sb.reverse().toString();
     }
 }
 ```

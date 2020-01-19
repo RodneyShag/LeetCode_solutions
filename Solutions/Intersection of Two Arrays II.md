@@ -45,7 +45,7 @@ class Solution {
 
 __What if the given array is already sorted? How would you optimize your algorithm?__
 
-If the arrays are already sorted, we can use 2 pointers to traverse
+If the arrays are already sorted, we can use 2 pointers to traverse the two arrays.
 
 ```java
 class Solution {
@@ -118,24 +118,25 @@ class Solution {
         return result;
     }
 
-    // binary search from 'lo' to end of array
+    // binary search from 'lo' to end of array.
+    // if duplicates exist, return the index for the match furthest left.
     private Integer binarySearch(int[] sortedArray, int value, int lo) {
         int hi = sortedArray.length - 1;
-        while (lo <= hi) {
+        while (lo < hi) {
             int mid = (lo + hi) / 2;
-            if (sortedArray[mid] > value) {
-                hi = mid - 1;
-            } else if (sortedArray[mid] < value) {
+            if (sortedArray[mid] < value) {
                 lo = mid + 1;
+            } else if (sortedArray[mid] > value) {
+                hi = mid - 1;
             } else {
-                // if duplicates exist, return the index for the match furthest left.
-                while (mid > lo && sortedArray[mid - 1] == value) {
-                    mid--;
-                }
-                return mid;
+                hi = mid;
             }
         }
-        return null;
+        if (lo < sortedArray.length && sortedArray[lo] == value) {
+            return lo;
+        } else {
+            return null;
+        }
     }
 }
 ```

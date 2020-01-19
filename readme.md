@@ -2,7 +2,7 @@
   <a href="https://leetcode.com/RodneyShag">
     <img height=80 src="https://leetcode.com/static/webpack_bundles/images/logo-dark.e99485d9b.svg">
   </a>
-  <br>200 efficient solutions to LeetCode problems
+  <br>202 efficient solutions to LeetCode problems
   <br><br>
 </p>
 
@@ -141,6 +141,7 @@
 |  300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence)                                                   | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Longest%20Increasing%20Subsequence.md)                                        |   Medium   |
 |  309 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown)                     | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown.md)             |   Medium   |
 |  326 | [Power of Three](https://leetcode.com/problems/power-of-three)                                                                                   | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Power%20of%20Three.md)                                                        |    Easy    |
+|  328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)                                                                       | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Odd%20Even%20Linked%20List.md)                                                |   Medium   |
 |  342 | [Power of Four](https://leetcode.com/problems/power-of-four)                                                                                     | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Power%20of%20Four.md)                                                         |    Easy    |
 |  344 | [Reverse String](https://leetcode.com/problems/reverse-string)                                                                                   | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Reverse%20String.md)                                                          |    Easy    |
 |  347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)                                                                 | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Top%20K%20Frequent%20Elements.md)                                             |   Medium   |
@@ -156,6 +157,7 @@
 |  387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string)                                           | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/First%20Unique%20Character%20in%20a%20String.md)                              |    Easy    |
 |  389 | [Find the Difference](https://leetcode.com/problems/find-the-difference)                                                                         | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Find%20the%20Difference.md)                                                   |    Easy    |
 |  412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz)                                                                                             | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Fizz%20Buzz.md)                                                               |    Easy    |
+|  414 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number)                                                                       | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Third%20Maximum%20Number.md)                                                  |    Easy    |
 |  429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal)                                               | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/N-ary%20Tree%20Level%20Order%20Traversal.md)                                  |    Easy    |
 |  437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii)                                                                                       | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Path%20Sum%20III.md)                                                          |    Easy    |
 |  442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array)                                                 | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Find%20All%20Duplicates%20in%20an%20Array.md)                                 |   Medium   |
