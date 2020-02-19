@@ -25,11 +25,10 @@ GROUP BY id
 
 ### MAX vs SUM
 
-It seems the test data does not have duplicate data, so you can either use `MAX` or `SUM` and the solution will work.
-
-For a specific `id`, since the input data does not have duplicates, we only have 1 `Jan`, 1 `Feb`, 1 `Mar`, etc., so whether we use `MAX` or `SUM`, the column will just display that `revenue`.
-
-The `MAX` lets us combine each `revenue` with `null` and selects that 1 `revenue` for the cell.
+- It seems the input data has at most 1 row for every `id` and `month` pair, so the revenue for an `id` and `month` pair will always be a single value
+- Therefore, for a specific `id`, we can only have 1 value for each of `Jan`, `Feb`, `Mar`, etc.
+- Since multiple rows in the input can have the same `id`, the `GROUP BY` needs an aggregate function (such as `MAX` or `SUM`) to combine the rows for an `id`. Since each `id` and `month` pair can only have 1 `revenue`, it doesn't matter whether we use `MAX` or `SUM` for combining rows
+- I use `MAX`. If the `month` has a revenue, it will use it, otherwise, the value will be `null`
 
 ### Links
 

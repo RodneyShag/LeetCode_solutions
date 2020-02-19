@@ -2,7 +2,7 @@
 
 __Similar problem__ to [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/). Review [my solution to that problem](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Find%20Median%20from%20Data%20Stream.md) first, as we will be use the same algorithm explained there.
 
-__Heap vs. TreeSet__ - removing a specific element from a heap takes `O(k)` time. Instead, use a [TreeSet](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html) to achieve `O(log k)` for removal. Also, iterating over a `TreeSet` returns the elements in sorted order, so grabbing the largest or smallest element in a `TreeSet` takes `O(1)` time (which also means we don't need to `reverse()` our `Comparator` like we did in the previous problem)
+__Heap vs. TreeSet__ - removing a specific element from a heap takes `O(k)` time. Instead, use a [TreeSet](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html) to achieve `O(log k)` for removal. Also, iterating over a `TreeSet` returns the elements in sorted order. We also don't need to `reverse()` our `Comparator` like we did in the previous problem.
 
 __Dealing with duplicate values in input array__ - Normally we would store _values_ in our `TreeSet`, but since duplicate values can exist, we will store _indexes_ instead, which are unique. Using an index, we can always retrieve the corresponding value using the input array.
 

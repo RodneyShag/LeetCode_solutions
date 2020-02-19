@@ -25,7 +25,9 @@ class Solution {
 
 Max size of an `int` in Java is a constant 32 bits, so our `String` length will not exceed 32.
 
--  Time Complexity: O(1)
+-  Time Complexity
+    - `O(1)` if you consider that `int` in Java is a constant 32 bits, so our `String` length will not exceed 32.
+    - `O(log n)` if you allow `x` to grow infinitely large. The length of the `String` grows logarithmically as fast compared to the growth of `x`
 - Space Complexity: O(1)
 
 ### Follow-up Problem: "Don't use a String"

@@ -2,7 +2,7 @@
   <a href="https://leetcode.com/RodneyShag">
     <img height=80 src="https://leetcode.com/static/webpack_bundles/images/logo-dark.e99485d9b.svg">
   </a>
-  <br>202 efficient solutions to LeetCode problems
+  <br>203 efficient solutions to LeetCode problems
   <br><br>
 </p>
 
@@ -139,6 +139,7 @@
 |  292 | [Nim Game](https://leetcode.com/problems/nim-game)                                                                                               | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Nim%20Game.md)                                                                |    Easy    |
 |  295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream)                                                       | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Find%20Median%20from%20Data%20Stream.md)                                      |    Hard    |
 |  300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence)                                                   | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Longest%20Increasing%20Subsequence.md)                                        |   Medium   |
+|  303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable)                                                           | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Range%20Sum%20Query%20-%20Immutable.md)                                       |    Easy    |
 |  309 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown)                     | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown.md)             |   Medium   |
 |  326 | [Power of Three](https://leetcode.com/problems/power-of-three)                                                                                   | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Power%20of%20Three.md)                                                        |    Easy    |
 |  328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)                                                                       | [Solution](https://github.com/RodneyShag/LeetCode_solutions/blob/master/Solutions/Odd%20Even%20Linked%20List.md)                                                |   Medium   |
