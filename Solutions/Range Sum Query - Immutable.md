@@ -39,5 +39,5 @@ class NumArray {
 
 ### Links
 
-- [Discuss on LeetCode]https://leetcode.com/problems/range-sum-query-immutable/discuss/489951)
+- [Discuss on LeetCode](https://leetcode.com/problems/range-sum-query-immutable/discuss/489951)
 - [github.com/RodneyShag](https://github.com/RodneyShag)
