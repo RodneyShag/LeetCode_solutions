@@ -35,7 +35,7 @@ class Solution {
 
 ### Time/Space Complexity
 
--  Time Complexity: O(rows * cols)
+-  Time Complexity: O(rows + cols)
 - Space Complexity: O(1)
 
 ### Alternative Solution 1
