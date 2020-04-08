@@ -13,13 +13,17 @@ class Solution {
         }
         StringBuffer sb = new StringBuffer();        
         while (n > 0) {
-            sb.insert(0, (char) ('A' + (n - 1) % 26));
+            sb.append((char) ('A' + (n - 1) % 26));
             n = (n - 1) / 26;
         }
-        return sb.toString();
+        return sb.reverse().toString();
     }
 }
 ```
+
+### Additional Notes
+
+We used `.append()` (instead of inserting at the front) since `append()` is O(1) time. Since we build the string backwards, we reverse it before returning it.
 
 ### Details Explained
 
@@ -48,12 +52,12 @@ Let's use input `28` as an example.
 - The `(char) ('A' + (n - 1) % 26)` gives us value `B`.
 - The `n = (n - 1) / 26` updates our number to `1`.
 - The `(char) ('A' + (n - 1) % 26)` gives us value `A`.
-- Our final result is `AB`
+- Our `StringBuffer` is now `BA`. We reverse it to get `AB`
 
 ### Time/Space Complexity
 
--  Time Complexity: O(n)
-- Space Complexity: O(1)
+-  Time Complexity: O(log n)
+- Space Complexity: O(log n)
 
 ### Links
 
