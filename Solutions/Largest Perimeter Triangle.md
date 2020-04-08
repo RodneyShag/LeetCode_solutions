@@ -24,7 +24,7 @@ class Solution {
 ### Time/Space Complexity
 
 - Time Complexity: `O(n log n)` due to Arrays.sort()
-- Space Complexity: `O(n)` due to loop
+- Space Complexity: Depends on space complexity of `Arrays.sort()`, which can be as low as `O(1)`.
 
 ### Links
 
