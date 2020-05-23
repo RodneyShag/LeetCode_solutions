@@ -6,10 +6,10 @@ Use Semaphores. Here is a good explanation of [Semaphores](https://www.geeksforg
 
 ```java
 class ZeroEvenOdd {
-    private int n;
-    Semaphore zeroLock = new Semaphore(1);
-    Semaphore  oddLock = new Semaphore(0);
-    Semaphore evenLock = new Semaphore(0);
+    private final int n;
+    private final Semaphore zeroLock = new Semaphore(1);
+    private final Semaphore  oddLock = new Semaphore(0);
+    private final Semaphore evenLock = new Semaphore(0);
 
     public ZeroEvenOdd(int n) {
         this.n = n;
@@ -24,7 +24,6 @@ class ZeroEvenOdd {
             } else {
                 evenLock.release();
             }
-
         }
     }
 

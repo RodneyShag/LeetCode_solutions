@@ -68,7 +68,7 @@ Let `d` be the "minimum depth" of the tree.
 -  Time Complexity: O(2<sup>d</sup>)
 - Space Complexity: O(2<sup>d</sup>)
 
-O(2<sup>d</sup>) is faster than O(n) when the tree has some branches that are shorter than others, and we don't visit every node. If tree is perfectly balanced, then the time/space complexity is O(n).
+O(2<sup>d</sup>) is faster than O(n) when the tree has some branches that are shorter than others, and we don't visit every node. If the tree is perfectly balanced, then the time/space complexity is O(2<sup>d</sup>) = O(n).
 
 ### Links
 
