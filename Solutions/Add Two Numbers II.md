@@ -21,9 +21,9 @@ public class ListNode {
 class Solution {
     public ListNode addTwoNumbers(ListNode m, ListNode n) {
         if (m == null) {
-            return m;
-        } else if (n == null) {
             return n;
+        } else if (n == null) {
+            return m;
         }
 
         Deque<Integer> deque1 = new ArrayDeque(); // use as a stack
