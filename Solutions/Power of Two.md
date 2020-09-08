@@ -14,6 +14,7 @@ class Solution {
 ```
 
 ### Example
+
 Let n = 2^5 = 32. In binary, we have:
 
 ```
