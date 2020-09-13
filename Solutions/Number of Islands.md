@@ -155,7 +155,7 @@ See [this solution](https://leetcode.com/problems/number-of-islands/discuss/5635
 
 1. Create a Union-Find class and feed it our input grid. The class will count the number of `1` values in our grid and save it as `count`.
 1. Loop through our grid. For each `1` we come across, search its 4 neighbors (the code searches all 4 neighbors but technically you only need to search right and down)
-  - For each neighbor that's a `1`, union() with it. If the neighbor is from a different "equivalence class" (which can be determined from our Union-Find class), union() will decrease `count`.
+    - For each neighbor that's a `1`, union() with it. If the neighbor is from a different "equivalence class" (which can be determined from our Union-Find class), union() will decrease `count`.
 
 ### Time Complexity
 
