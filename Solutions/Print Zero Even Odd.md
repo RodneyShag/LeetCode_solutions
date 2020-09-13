@@ -52,5 +52,4 @@ class ZeroEvenOdd {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/print-zero-even-odd/discuss/392144)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

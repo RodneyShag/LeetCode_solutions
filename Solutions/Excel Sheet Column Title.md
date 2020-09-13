@@ -61,5 +61,4 @@ Let's use input `28` as an example.
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/excel-sheet-column-title/discuss/442164)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

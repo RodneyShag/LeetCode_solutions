@@ -63,5 +63,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/merge-k-sorted-lists/discuss/304538)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

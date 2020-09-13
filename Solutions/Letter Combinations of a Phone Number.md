@@ -66,5 +66,4 @@ There will be 3<sup>M</sup> * 4<sup>N</sup> solutions, and each one will take O(
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/letter-combinations-of-a-phone-number/discuss/313425)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

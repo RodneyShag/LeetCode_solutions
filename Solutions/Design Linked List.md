@@ -123,5 +123,4 @@ class MyLinkedList { // Singly-Linked List
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/design-linked-list/discuss/343580)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

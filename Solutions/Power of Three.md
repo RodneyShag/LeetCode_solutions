@@ -93,5 +93,4 @@ class Solution {
 
 # Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/power-of-three/discuss/448777)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

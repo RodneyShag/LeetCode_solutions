@@ -46,5 +46,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/discuss/304465)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -78,5 +78,4 @@ class Solution {
 
 # Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/sqrtx/discuss/453059)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

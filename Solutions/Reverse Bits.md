@@ -38,5 +38,4 @@ public class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/reverse-bits/discuss/451757)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

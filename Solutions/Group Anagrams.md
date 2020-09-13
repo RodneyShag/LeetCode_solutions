@@ -92,5 +92,4 @@ class Solution {
 
 # Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/group-anagrams/discuss/308683)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

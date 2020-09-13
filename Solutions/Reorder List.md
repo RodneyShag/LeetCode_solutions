@@ -86,5 +86,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/reorder-list/discuss/304493)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -35,5 +35,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/discuss/304459)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

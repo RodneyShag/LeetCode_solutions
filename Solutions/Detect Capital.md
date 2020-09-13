@@ -28,5 +28,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/detect-capital/discuss/460102)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

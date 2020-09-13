@@ -124,5 +124,4 @@ Loop ends. Index 3 is returned.
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/discuss/440965)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

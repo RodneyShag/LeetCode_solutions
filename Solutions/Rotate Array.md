@@ -40,5 +40,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/rotate-array/discuss/304476)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

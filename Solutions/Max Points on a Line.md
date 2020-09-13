@@ -66,5 +66,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/max-points-on-a-line/discuss/355703)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

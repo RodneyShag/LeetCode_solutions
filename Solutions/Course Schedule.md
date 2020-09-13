@@ -100,5 +100,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/course-schedule/discuss/304362)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

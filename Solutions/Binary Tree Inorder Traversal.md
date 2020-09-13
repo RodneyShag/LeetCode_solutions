@@ -39,5 +39,4 @@ The follow-up question asks us for an iterative solution, but there is no benefi
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/binary-tree-inorder-traversal/discuss/304519)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -39,5 +39,4 @@ The follow-up question asks us for an iterative solution, but there is no benefi
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/binary-tree-preorder-traversal/discuss/304490)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

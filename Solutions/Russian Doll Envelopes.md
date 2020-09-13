@@ -67,5 +67,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/russian-doll-envelopes/discuss/348428)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -1,10 +1,10 @@
 # Algorithm
 
-- Loop through our `char[][] grid`. For each piece of land we see (a `1`), we mark all the land it's connected to.
-- We mark land by simply changing the `1` in our `grid` to a `0`. Can use either Depth-First Search (DFS) or Bread-First Search (BFS)
+- Loop through our `char[][] grid`, and for each piece of land we see (a `1`), we mark all the land it's connected to.
+  - Can use either Depth-First Search (DFS) or Bread-First Search (BFS) to find connected land.
+- We mark land by simply changing the `1` in our `grid` to a `0`.
 
-
-# Solution 1 - DFS
+# Solution - Depth-First Search (DFS)
 
 ### Solution
 
@@ -55,7 +55,9 @@ class Solution {
 - Space Complexity: O(rows * cols) due to recursion
 
 
-# Solution 2 - BFS
+# Alternate Solution - BFS
+
+You only need to be aware of this alternate solution if you are the interviewer.
 
 Solving with BFS requires more code, mostly due to the creation of the `Coordinate` class below.
 
@@ -94,7 +96,6 @@ class Solution {
         Deque<Coordinate> deque = new ArrayDeque(); // use deque as a queue
         grid[r][c] = '0'; // we alter the original matrix here
         deque.add(new Coordinate(r, c));
-
 
         while (!deque.isEmpty()) {
             Coordinate curr = deque.removeFirst();
@@ -142,5 +143,4 @@ class Coordinate {
 
 # Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/number-of-islands/discuss/304470)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

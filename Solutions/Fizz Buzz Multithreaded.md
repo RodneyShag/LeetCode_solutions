@@ -79,5 +79,4 @@ class FizzBuzz {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/fizz-buzz-multithreaded/discuss/392795)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

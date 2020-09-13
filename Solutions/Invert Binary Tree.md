@@ -31,5 +31,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/invert-binary-tree/discuss/401523)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

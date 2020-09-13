@@ -17,5 +17,4 @@ WHERE
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/rising-temperature/discuss/393689)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

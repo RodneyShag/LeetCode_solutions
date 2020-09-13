@@ -30,5 +30,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/coin-change-2/discuss/304455)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

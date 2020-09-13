@@ -18,7 +18,7 @@ class Solution {
         for (int n : nums) {
             map.merge(n, 1, Integer::sum);
         }
-        
+
         Set<Integer> set = new HashSet(map.values());
         return map.size() == set.size();
     }
@@ -32,5 +32,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/unique-number-of-occurrences/discuss/457554)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -37,5 +37,4 @@ class H2O {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/building-h2o/discuss/392237)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

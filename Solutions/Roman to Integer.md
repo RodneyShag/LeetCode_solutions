@@ -49,5 +49,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/roman-to-integer/discuss/432830)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

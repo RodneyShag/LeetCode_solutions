@@ -67,5 +67,4 @@ Output: [3 3 5 5 6 7]
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/sliding-window-maximum/discuss/383356)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

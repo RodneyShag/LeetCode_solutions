@@ -52,5 +52,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/max-area-of-island/discuss/304463)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -39,5 +39,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/reverse-linked-list/discuss/304467)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -43,5 +43,4 @@ However, the official LeetCode solutions there is a very difficult mathematical 
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/generate-parentheses/discuss/324390)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

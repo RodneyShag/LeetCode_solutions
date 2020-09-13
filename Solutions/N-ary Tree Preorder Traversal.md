@@ -39,5 +39,4 @@ The follow-up question asks us for an iterative solution, but there is no benefi
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/n-ary-tree-preorder-traversal/discuss/312431)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

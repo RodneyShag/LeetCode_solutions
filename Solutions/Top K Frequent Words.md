@@ -98,5 +98,4 @@ In the `TrieNode` class, public variables are used for simplicity.
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/top-k-frequent-words/discuss/304461)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

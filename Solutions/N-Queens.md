@@ -128,5 +128,4 @@ However, for an 8x8 board, there are only exactly 92 solutions.  It might make m
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/n-queens/discuss/308957)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

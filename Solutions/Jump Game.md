@@ -77,5 +77,4 @@ Due to our jump value being [0, jump], we can solve this in O(1) space. However,
 
 # Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/jump-game/discuss/323971)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

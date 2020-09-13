@@ -48,5 +48,4 @@ class MinStack {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/min-stack/discuss/305867)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

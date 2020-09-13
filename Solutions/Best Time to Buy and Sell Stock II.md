@@ -40,5 +40,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/discuss/439867)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

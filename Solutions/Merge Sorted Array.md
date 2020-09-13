@@ -33,5 +33,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/merge-sorted-array/discuss/431201)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

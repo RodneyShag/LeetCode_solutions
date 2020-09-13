@@ -48,5 +48,4 @@ Binary search every row. However, this solution is slower, as it's for O(rows * 
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/search-a-2d-matrix-ii/discuss/313468)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

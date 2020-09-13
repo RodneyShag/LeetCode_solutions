@@ -168,5 +168,4 @@ __What if neither nums1 or nums2 can fully fit in memory?__
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/intersection-of-two-arrays-ii/discuss/439955)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

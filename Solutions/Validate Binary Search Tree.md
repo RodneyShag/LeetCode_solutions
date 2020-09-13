@@ -34,5 +34,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/validate-binary-search-tree/discuss/304509)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

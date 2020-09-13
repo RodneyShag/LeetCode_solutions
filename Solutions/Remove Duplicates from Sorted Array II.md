@@ -37,5 +37,4 @@ A `nums[i - 1] != n` comparison is not necessary since the input array is sorted
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/discuss/433558)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

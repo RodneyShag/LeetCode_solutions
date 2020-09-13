@@ -32,5 +32,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/maximum-depth-of-binary-tree/discuss/304504)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -79,5 +79,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/longest-palindromic-substring/discuss/304553)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

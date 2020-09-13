@@ -135,5 +135,4 @@ A concise `LinkedHashMap` solution is found [here](https://leetcode.com/problems
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/lru-cache/discuss/309691)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

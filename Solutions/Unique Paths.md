@@ -61,5 +61,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/unique-paths/discuss/306448)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

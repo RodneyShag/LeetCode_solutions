@@ -25,5 +25,4 @@ AS SecondHighestSalary
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/second-highest-salary/discuss/393480)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

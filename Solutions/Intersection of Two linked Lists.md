@@ -42,5 +42,4 @@ public class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/intersection-of-two-linked-lists/discuss/307029)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -82,5 +82,4 @@ If you use 2 heaps instead, you will get findMedian() of O(1) average case, O(lo
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/find-median-from-data-stream/discuss/343662)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -59,5 +59,4 @@ Using AND and XOR operators is literally how addition is done in circuits, using
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/sum-of-two-integers/discuss/308122)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

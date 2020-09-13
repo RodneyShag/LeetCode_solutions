@@ -13,5 +13,4 @@ WHERE Orders.CustomerId IS NULL
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/customers-who-never-order/discuss/393562)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -94,5 +94,4 @@ class Solution {
 
 # Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/maximum-subarray/discuss/329089)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

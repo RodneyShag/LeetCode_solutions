@@ -55,5 +55,4 @@ public class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/longest-increasing-subsequence/discuss/304385)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

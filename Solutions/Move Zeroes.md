@@ -33,5 +33,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/move-zeroes/discuss/396373)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

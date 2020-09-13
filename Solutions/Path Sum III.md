@@ -51,5 +51,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/path-sum-iii/discuss/345071)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

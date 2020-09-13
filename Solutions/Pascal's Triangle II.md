@@ -58,5 +58,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/pascals-triangle-ii/discuss/458235)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

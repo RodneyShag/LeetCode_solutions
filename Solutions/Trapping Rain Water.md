@@ -101,5 +101,4 @@ class Solution {
 
 # Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/trapping-rain-water/discuss/304524)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

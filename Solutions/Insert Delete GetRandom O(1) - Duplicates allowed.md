@@ -76,5 +76,4 @@ public boolean contains(int num) {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/discuss/323134)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

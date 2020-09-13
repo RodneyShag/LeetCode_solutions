@@ -58,5 +58,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/rotate-image/discuss/304523)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

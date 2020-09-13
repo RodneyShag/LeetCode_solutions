@@ -57,5 +57,4 @@ class MyQueue {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/implement-queue-using-stacks/discuss/308183)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

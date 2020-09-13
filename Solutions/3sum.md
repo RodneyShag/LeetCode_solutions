@@ -63,5 +63,4 @@ O(n<sup>2</sup>)
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/3sum/discuss/304552)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

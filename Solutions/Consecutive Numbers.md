@@ -33,5 +33,4 @@ since for `[3,3]`, it's a match for `[1,3], [2,3], [3,3]` and also for `[2,3], [
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/consecutive-numbers/discuss/393862)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

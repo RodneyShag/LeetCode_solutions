@@ -35,5 +35,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/find-peak-element/discuss/304478)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

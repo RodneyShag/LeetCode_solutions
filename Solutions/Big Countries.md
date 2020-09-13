@@ -8,5 +8,4 @@ WHERE population > 25000000 OR
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/big-countries/discuss/393724)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

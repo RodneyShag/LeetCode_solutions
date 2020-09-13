@@ -51,5 +51,4 @@ If you view this recursion as a tree, there will be `n!` leaf nodes, so there ar
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/permutations-ii/discuss/324281)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

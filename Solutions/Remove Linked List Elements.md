@@ -41,5 +41,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/remove-linked-list-elements/discuss/433453)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

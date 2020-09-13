@@ -44,5 +44,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/4sum-ii/discuss/336436)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

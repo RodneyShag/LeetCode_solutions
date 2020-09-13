@@ -51,5 +51,4 @@ There are 2<sup>n</sup> subsets to generate, and each one takes `O(n)` time to c
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/subsets/discuss/313500)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

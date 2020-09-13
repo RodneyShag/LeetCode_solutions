@@ -26,5 +26,4 @@ GROUP BY Request_at;
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/trips-and-users/discuss/394443)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

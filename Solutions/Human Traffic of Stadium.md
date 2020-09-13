@@ -76,5 +76,4 @@ We have successfully matched `a.id` of `5`, `6`, `7`, `8`, however, we have dupl
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/human-traffic-of-stadium/discuss/394444)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

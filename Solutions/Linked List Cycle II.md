@@ -48,5 +48,4 @@ public class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/linked-list-cycle-ii/discuss/308124)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

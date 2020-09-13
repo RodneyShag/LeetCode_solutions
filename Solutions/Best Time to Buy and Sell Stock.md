@@ -54,5 +54,4 @@ public int maxProfit(int[] prices) {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/discuss/426314)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -13,5 +13,4 @@ The part after the `AND` finds the `MAX` salary for the `Department` we're inter
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/department-highest-salary/discuss/393900)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

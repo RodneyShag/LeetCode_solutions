@@ -38,5 +38,4 @@ Instead of calculating the middle value as `mid = (lo + hi) / 2`, do `mid = lo +
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/search-insert-position/discuss/458339)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

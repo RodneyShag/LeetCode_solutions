@@ -89,5 +89,4 @@ class Trie {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/implement-trie-prefix-tree/discuss/343170)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

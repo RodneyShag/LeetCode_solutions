@@ -113,5 +113,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/course-schedule-ii/discuss/304370)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

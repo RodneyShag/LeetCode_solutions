@@ -40,5 +40,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/longest-common-prefix/discuss/452063)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

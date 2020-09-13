@@ -27,5 +27,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/single-number/discuss/304498)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

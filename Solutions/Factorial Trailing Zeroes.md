@@ -39,5 +39,4 @@ Must use `long i` to prevent integer overflow from the `i *= 5`
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/factorial-trailing-zeroes/discuss/313449)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

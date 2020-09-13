@@ -65,5 +65,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/odd-even-linked-list/discuss/465054)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

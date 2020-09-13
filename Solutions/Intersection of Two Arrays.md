@@ -38,5 +38,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/intersection-of-two-arrays/discuss/432767)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

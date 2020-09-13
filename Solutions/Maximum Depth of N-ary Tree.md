@@ -35,5 +35,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/discuss/312441)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -28,5 +28,4 @@ HAVING COUNT(DISTINCT student) >= 5
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/classes-more-than-5-students/discuss/393736)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

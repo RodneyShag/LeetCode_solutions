@@ -124,5 +124,4 @@ The linux Kernel uses Heapsort.
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/sort-an-array/discuss/357592)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

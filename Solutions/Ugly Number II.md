@@ -67,5 +67,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/ugly-number-ii/discuss/327344)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -16,5 +16,4 @@ The subquery `SELECT COUNT...` counts how many Employees `E2` have a salary grea
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/department-top-three-salaries/discuss/394442)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

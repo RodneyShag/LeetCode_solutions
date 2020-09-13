@@ -35,5 +35,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/to-lower-case/discuss/457545)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

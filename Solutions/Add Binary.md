@@ -45,5 +45,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/add-binary/discuss/458390)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

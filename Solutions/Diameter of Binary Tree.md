@@ -52,5 +52,4 @@ For `max`, we used a global instance variable. Alternatively, you can [wrap the 
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/diameter-of-binary-tree/discuss/402015)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

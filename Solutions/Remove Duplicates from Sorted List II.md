@@ -50,5 +50,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/discuss/458487)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

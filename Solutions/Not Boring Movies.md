@@ -9,5 +9,4 @@ ORDER BY rating DESC
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/not-boring-movies/discuss/393788)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

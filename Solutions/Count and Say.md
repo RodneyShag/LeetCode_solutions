@@ -47,5 +47,4 @@ O(1)
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/count-and-say/discuss/457513)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

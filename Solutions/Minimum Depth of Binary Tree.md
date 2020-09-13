@@ -72,5 +72,4 @@ O(2<sup>d</sup>) is faster than O(n) when the tree has some branches that are sh
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/minimum-depth-of-binary-tree/discuss/458691)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -26,5 +26,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/contains-duplicate/discuss/432778)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -62,5 +62,4 @@ mid = (lo > 0 && hi > 0) || (lo < 0 && hi < 0)
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/discuss/304521)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

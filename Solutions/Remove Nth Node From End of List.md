@@ -55,5 +55,4 @@ There is no benefit in solving this problem in 1 pass instead of 2 passes, as th
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/discuss/312878)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

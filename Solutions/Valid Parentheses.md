@@ -38,5 +38,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/valid-parentheses/discuss/304546)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

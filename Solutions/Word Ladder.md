@@ -199,5 +199,4 @@ I believe Bidirectional search is an excellent candidate for parallel processing
 
 # Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/word-ladder/discuss/345900)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

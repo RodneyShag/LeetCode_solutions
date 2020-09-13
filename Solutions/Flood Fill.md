@@ -38,5 +38,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/flood-fill/discuss/312633)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

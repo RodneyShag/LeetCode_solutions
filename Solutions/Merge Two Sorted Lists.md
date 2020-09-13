@@ -49,5 +49,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/discuss/304545)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

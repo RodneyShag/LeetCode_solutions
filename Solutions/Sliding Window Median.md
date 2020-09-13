@@ -79,5 +79,4 @@ The cast was also necessary to be able to get decimal values when dividing (such
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/sliding-window-median/discuss/401208)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

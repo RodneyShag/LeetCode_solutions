@@ -50,5 +50,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/discuss/323450)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

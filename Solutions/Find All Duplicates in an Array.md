@@ -34,5 +34,4 @@ The follow-up question asks to "do it without extra space and O(n) runtime", but
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/find-all-duplicates-in-an-array/discuss/426231)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

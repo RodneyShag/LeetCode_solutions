@@ -145,5 +145,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/sort-list/discuss/356829)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

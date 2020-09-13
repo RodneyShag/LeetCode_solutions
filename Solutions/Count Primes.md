@@ -62,5 +62,4 @@ O(n) due to `boolean[] isPrime`
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/count-primes/discuss/452628)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

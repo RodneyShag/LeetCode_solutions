@@ -30,5 +30,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/jewels-and-stones/discuss/457539)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -87,5 +87,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/fibonacci-number/discuss/304450)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

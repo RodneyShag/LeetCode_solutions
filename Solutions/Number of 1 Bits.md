@@ -31,5 +31,4 @@ public class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/number-of-1-bits/discuss/451746)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

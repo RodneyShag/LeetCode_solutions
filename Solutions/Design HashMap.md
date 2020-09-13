@@ -152,5 +152,4 @@ class MyHashMap {
 
 # Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/design-hashmap/discuss/346157)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

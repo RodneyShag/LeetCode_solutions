@@ -41,5 +41,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/valid-palindrome/discuss/426260)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

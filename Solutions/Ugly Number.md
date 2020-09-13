@@ -42,5 +42,4 @@ Max size of an `int` in Java is a constant 32 bits, and we usually don't take nu
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/ugly-number/discuss/457835)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -52,5 +52,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/discuss/458607)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

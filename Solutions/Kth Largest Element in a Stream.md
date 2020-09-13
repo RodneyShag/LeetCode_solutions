@@ -65,5 +65,4 @@ O(k) due to the size of the heap.
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/kth-largest-element-in-a-stream/discuss/343774)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

@@ -21,5 +21,4 @@ ORDER BY id
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/exchange-seats/discuss/393915)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

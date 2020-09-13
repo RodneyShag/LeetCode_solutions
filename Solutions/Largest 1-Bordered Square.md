@@ -55,5 +55,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/largest-1-bordered-square/discuss/360612)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

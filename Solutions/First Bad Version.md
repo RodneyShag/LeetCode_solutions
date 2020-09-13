@@ -37,5 +37,4 @@ Instead of calculating the middle value as `mid = (lo + hi) / 2`, do `mid = lo +
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/first-bad-version/discuss/457444)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

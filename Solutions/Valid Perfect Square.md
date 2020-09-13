@@ -63,5 +63,4 @@ class Solution {
 
 # Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/valid-perfect-square/discuss/459934)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

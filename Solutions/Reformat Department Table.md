@@ -32,5 +32,4 @@ GROUP BY id
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/reformat-department-table/discuss/393818)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

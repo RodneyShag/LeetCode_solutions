@@ -45,5 +45,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/symmetric-tree/discuss/397360)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

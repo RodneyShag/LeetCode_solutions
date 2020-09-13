@@ -36,5 +36,4 @@ The `String` solution above is the most efficient and straightforward way to sol
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/palindrome-number/discuss/458320)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

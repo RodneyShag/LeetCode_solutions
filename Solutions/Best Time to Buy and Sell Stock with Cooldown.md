@@ -105,5 +105,4 @@ A [1-array solution](https://leetcode.com/problems/best-time-to-buy-and-sell-sto
 
 # Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/discuss/441543)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

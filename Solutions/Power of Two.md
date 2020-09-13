@@ -61,5 +61,4 @@ public boolean isPowerOfTwo(int n) {
 
 # Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/power-of-two/discuss/312852)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

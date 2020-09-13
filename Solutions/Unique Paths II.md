@@ -48,5 +48,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/unique-paths-ii/discuss/343886)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

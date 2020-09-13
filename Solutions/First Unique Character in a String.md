@@ -34,5 +34,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/first-unique-character-in-a-string/discuss/396406)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

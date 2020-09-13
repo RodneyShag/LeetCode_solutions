@@ -65,5 +65,4 @@ This algorithm works for any "Power of X" question for X = 2, 3, 4,...
 
 # Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/power-of-four/discuss/451488)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

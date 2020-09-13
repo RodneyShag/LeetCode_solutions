@@ -59,5 +59,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/discuss/328244)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

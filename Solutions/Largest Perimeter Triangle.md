@@ -28,5 +28,4 @@ class Solution {
 
 ### Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/largest-perimeter-triangle/discuss/312118)
 - [github.com/RodneyShag](https://github.com/RodneyShag)

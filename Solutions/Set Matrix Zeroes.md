@@ -127,5 +127,4 @@ class Solution {
 
 # Links
 
-- [Discuss on LeetCode](https://leetcode.com/problems/set-matrix-zeroes/discuss/305707)
 - [github.com/RodneyShag](https://github.com/RodneyShag)
