@@ -10,15 +10,9 @@ If a number is a power of 4, we can keep dividing it by 4 until we end up with a
 
 ```java
 class Solution {
-    public boolean isPowerOfFour(int n) {
-        if (n < 1) {
-            return false;
-        }
-        while (n % 4 == 0) {
-            n /= 4;
-        }
-        return n == 1;
-    }
+    public boolean isPowerOfFour(int num) {
+        return (num&(num-1))==0 && num>0 && (num-1)%3==0;
+     }
 }
 ```
 
