@@ -145,7 +145,7 @@ class Coordinate {
 
 You only need to be aware of this alternate solution if you are the interviewer.
 
-Pre-requisite: Understand the Union-Find data structure theoretically.
+Pre-requisite: Understand the Union-Find data structure theoretically (I learned it from a Data Structures course in college).
 
 ### Code
 
